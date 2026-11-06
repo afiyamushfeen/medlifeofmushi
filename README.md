@@ -107,7 +107,7 @@ MedLife OfMushi is an educational platform. Its content is intended for general 
 ---
 
 <p align="center">
-  **MedLife OfMushi**
+  MedLife OfMushi
   <br>
-  *Made for Med Minds.*
+  Made for Med Minds.
 </p>
