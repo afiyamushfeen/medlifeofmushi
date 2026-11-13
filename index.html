@@ -81,7 +81,20 @@ header .in{padding:8px 16px}.door small{display:block;font-size:.78rem;line-heig
 .fpan{position:fixed;left:50%;bottom:0;transform:translate(-50%,105%);width:min(96vw,640px);max-height:80vh;overflow:auto;background:var(--paper);border:3px solid var(--w2);border-bottom:0;border-radius:22px 22px 0 0;z-index:55;padding:14px 18px 24px;transition:transform .3s;box-shadow:0 -10px 40px #0007}.fpan.on{transform:translate(-50%,0)}.fh{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
 .mm{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;align-items:start}.mm>details,.mm>a{border:1px solid var(--line);border-radius:16px;background:var(--paper);padding:10px 14px;margin:0;text-decoration:none}.mm summary{font:600 1.2rem "Cormorant Garamond",serif;cursor:pointer}.mmb{margin:8px 0 4px 6px;padding-left:12px;border-left:2px solid var(--bur)}.mmb details{border:0;padding:3px 0;margin:0;border-radius:0}.mmb summary{font:500 .98rem Inter,sans-serif}.mmb .dl2{display:block;padding:3px 0;text-decoration:none}.mmb summary a{text-decoration:none}
 .jb{display:none;gap:6px;overflow-x:auto;white-space:nowrap;position:sticky;top:env(safe-area-inset-top,0px);z-index:15;background:var(--paper);padding:8px 4px;margin:6px 0 10px;border-bottom:1px solid var(--line);scrollbar-width:thin}.jb .chip{flex:0 0 auto;padding:4px 12px;font-size:.84rem}#ccp h3,#ccp summary{scroll-margin-top:64px}
-footer{text-align:center;color:var(--mut);font-size:.82rem;padding:20px}
+footer{text-align:center;color:var(--mut);font-size:.82rem;padding:20px} .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  .btn {
+    display: flex;
+    width: 100%;
+  }
+}
 </style></head><body>
 <header><div class="in"><a class="logo" href="#home">MEDLIFEOFMUSHI</a><nav id="nv" style="display:none"></nav><button class="ib" id="th" aria-label="Toggle light or dark">Theme</button><button class="ib" id="mn" aria-label="Open menu">☰ Menu</button></div></header>
 <button class="fab" id="fab" aria-label="Open menu">☰</button><div id="ov"></div>
