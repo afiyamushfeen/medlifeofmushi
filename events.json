@@ -1,5 +1,5 @@
 {
-  "webinar": [
-    {"t":"SynergyHomeopathic","d":"2026-11-22","tm":"20:30","c":"webinar","n":"discoverint the core of the patient"}
+  "events": [
+    {"t":"webinar","d":"2026-11-22","tm":"20:00","c":"webinar","m":"Online","n":"Organised by ...","l":"https://..."}
   ]
 }
