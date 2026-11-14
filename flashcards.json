@@ -1,16 +1,16 @@
 {
  "anatomy": [
   {
-   "q": "Longest and strongest bone of the body?",
-   "a": "Femur"
+   "q": Structure induces the overlying ectoderm to differentiate into the neural plate during neurulation",
+   "a": "Notochord (derived from axial mesoderm"
   },
   {
-   "q": "Total number of bones in an adult?",
-   "a": "206"
+   "q": "Structures develop from the 3rd pharyngeal pouch",
+   "a": "Inferior parathyroid glands and the thymus"
   },
   {
-   "q": "Smallest bone of the body?",
-   "a": "Stapes (middle ear)"
+   "q": "What adult structure is the remnant of the fetal umbilical vein?",
+   "a": "Ligamentum teres hepatis (round ligament of the liver)"
   },
   {
    "q": "Vertebral formula?",
@@ -21,8 +21,8 @@
    "a": "Supraspinatus, Infraspinatus, Teres minor, Subscapularis (SITS)"
   },
   {
-   "q": "Nerve injured in fracture of the surgical neck of humerus?",
-   "a": "Axillary nerve (supplies deltoid and teres minor)"
+   "q": "Damage to the common fibular (peroneal) nerve at the neck of the fibula leads to which classic gait abnormality?",
+   "a": "Foot drop (steppage gait) due to loss of dorsiflexion and eversion."
   },
   {
    "q": "Nerve injured in mid-shaft humerus fracture, causing wrist drop?",
@@ -57,20 +57,20 @@
    "a": "Trigeminal nerve (V)"
   },
   {
-   "q": "Valve between left atrium and left ventricle?",
-   "a": "Mitral (bicuspid) valve"
+   "q": "At which vertebral level does the trachea bifurcate into the left and right main bronchi (the carina)?",
+   "a": "T4/T5 (sternal angle / angle of Louis)."
   },
   {
-   "q": "Artery supplying the SA node in most people?",
-   "a": "Right coronary artery"
+   "q": "Through which skull foramen does the middle meningeal artery enter the cranial cavity?",
+   "a": "Foramen spinosum (laceration from a pterion fracture causes an epidural hematoma)."
   },
   {
    "q": "Artery of cerebral haemorrhage (Charcot)?",
    "a": "Lenticulostriate branch of the middle cerebral artery"
   },
   {
-   "q": "Lobes of the lungs?",
-   "a": "Right: 3 (upper, middle, lower). Left: 2 (upper with lingula, lower)"
+   "q": "Which ligament supports the ovary and carries the ovarian vessels?",
+   "a": "Suspensory (infundibulopelvic) ligament of the ovary"
   },
   {
    "q": "Surface marking of McBurney's point?",
@@ -83,32 +83,32 @@
  ],
  "physiology": [
   {
-   "q": "Normal resting heart rate in an adult?",
-   "a": "60 to 100 beats per minute"
+   "q": "Which receptors mediate the baroreceptor reflex in the aortic arch and carotid sinus, and which cranial nerves carry their afferent signals?",
+   "a": "Stretch mechanoreceptors; carried by the vagus nerve (CN X) from the aortic arch and the glossopharyngeal nerve (CN IX) from the carotid sinus."
   },
   {
-   "q": "Normal arterial blood pressure?",
-   "a": "120/80 mmHg"
+   "q": "cells in the gastric mucosa secrete hydrochloric acid (HCl) and intrinsic factor",
+   "a": "Parietal (oxyntic) cells (intrinsic factor is required for vitamin B₁₂ absorption in the terminal ileum)."
   },
   {
    "q": "Natural pacemaker of the heart?",
    "a": "Sinoatrial (SA) node, which has the fastest intrinsic rate"
   },
   {
-   "q": "Normal haemoglobin in adults (textbook range)?",
-   "a": "Men 14 to 18 g/dL; women 12 to 16 g/dL"
+   "q": "hypothalamic nucleus acts as the master circadian pacemaker of the body",
+   "a": " Suprachiasmatic nucleus (SCN) (regulates melatonin release from the pineal gland)"
   },
   {
-   "q": "Life span of a red blood cell?",
-   "a": "About 120 days"
+   "q": "Which clotting factors are vitamin K-dependent, and where are they synthesized?",
+   "a": "Factors II, VII, IX, X, plus Protein C and Protein S; synthesized in the liver via gamma-carboxylation."
   },
   {
-   "q": "Normal total WBC count?",
-   "a": "4,000 to 11,000 per mm³"
+   "q": "How does insulin regulate blood glucose levels in skeletal muscle and adipose tissue?",
+   "a": "Promotes GLUT4 transporter translocation to the cell membrane, increasing glucose uptake, glycogenesis, lipogenesis, and protein synthesis."
   },
   {
-   "q": "Normal platelet count?",
-   "a": "1.5 to 4 lakh per mm³ (150,000 to 400,000)"
+   "q": "Ascending spinal tract carries pain and temperature sensation, and where does it decussate?",
+   "a": "Lateral spinothalamic tract; decussates within 1–2 spinal segments via the anterior white commissure."
   },
   {
    "q": "Normal glomerular filtration rate?",
