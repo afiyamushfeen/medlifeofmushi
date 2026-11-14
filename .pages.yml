@@ -1,0 +1,16 @@
+content:
+  - name: events
+    label: Calendar events
+    type: file
+    path: events.json
+    fields:
+      - name: events
+        label: Events
+        type: object
+        list: true
+        fields:
+          - { name: t, label: Title, type: string }
+          - { name: d, label: "Date (YYYY-MM-DD)", type: string }
+          - { name: tm, label: "Time (HH:MM, optional)", type: string }
+          - { name: c, label: Category, type: select, options: { values: [class, exam, revision, opportunity, personal] } }
+          - { name: n, label: Notes, type: text }
