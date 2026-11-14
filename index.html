@@ -187,8 +187,7 @@ const CATS=[["class","Classes","#702B36"],["exam","Exams","#c08a2b"],["revision"
 const cn=k=>CATS.find(c=>c[0]==k)||CATS[4],ea=s=>esc(s).replace(/"/g,"&quot;");
 const ymd=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"),pd=s=>{const[a,b,c]=s.split("-");return new Date(+a,b-1,+c)},add=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x};
 /* events = your own events + dated Study Planner tasks (read-only) */
-const evAll=()=>[...g("ev",[]),...g("plan",[]).map((t,i)=>t.d?{id:"p"+i,t:t.t+(t.x?" (done)":""),d:t.d,tm:"",c:"planner",ro:1}:0).filter(Boolean)];
-const evOn=k=>evAll().filter(e=>e.d==k).sort((a,b)=>(a.tm||"").localeCompare(b.tm||""));
+const evAll=m=>{const y=(typeof cv!=="undefined"&&cv.d?cv.d:new Date()).getFullYear();let md=m=="off"?[]:[...mdays(y-1),...mdays(y),...mdays(y+1)];if(m=="A"||m=="B")md=md.filter(e=>e.lv==m);return[...OWN.map(e=>({...e,ro:1})),...md,...g("plan",[]).map((t,i)=>t.d?{id:"p"+i,t:t.t+(t.x?" (done)":""),d:t.d,tm:"",c:"planner",ro:1}:0).filter(Boolean)]};const evOn=k=>evAll().filter(e=>e.d==k).sort((a,b)=>(a.tm||"").localeCompare(b.tm||""));
 const chip=e=>`<button class="ev" data-e="${e.id}" style="background:${cn(e.c)[2]}">${e.tm?e.tm+" ":""}${esc(e.t)}</button>`;
 const row=(e,t)=>`<div class="note"><span class="tag" style="background:${cn(e.c)[2]};color:#fff;border-color:${cn(e.c)[2]}">${cn(e.c)[1]}</span> ${e.tm||""} ${esc(e.t)}${e.d!=t?` <span class="mut">${e.d}</span>`:""}</div>`;
 function toast(m){let t=$("#toast");if(!t){t=document.createElement("div");t.id="toast";t.className="toast";t.setAttribute("role","status");document.body.append(t)}t.innerHTML=`${esc(m)} <button class="chip" aria-label="Dismiss">OK</button>`;t.firstElementChild&&t.querySelector("button").addEventListener("click",()=>t.remove())}
