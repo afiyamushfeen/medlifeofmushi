@@ -1,0 +1,576 @@
+{
+ "anatomy": [
+  {
+   "q": "Longest and strongest bone of the body?",
+   "a": "Femur"
+  },
+  {
+   "q": "Total number of bones in an adult?",
+   "a": "206"
+  },
+  {
+   "q": "Smallest bone of the body?",
+   "a": "Stapes (middle ear)"
+  },
+  {
+   "q": "Vertebral formula?",
+   "a": "C7, T12, L5, S5 (fused), Co4"
+  },
+  {
+   "q": "Muscles of the rotator cuff?",
+   "a": "Supraspinatus, Infraspinatus, Teres minor, Subscapularis (SITS)"
+  },
+  {
+   "q": "Nerve injured in fracture of the surgical neck of humerus?",
+   "a": "Axillary nerve (supplies deltoid and teres minor)"
+  },
+  {
+   "q": "Nerve injured in mid-shaft humerus fracture, causing wrist drop?",
+   "a": "Radial nerve (spiral groove)"
+  },
+  {
+   "q": "Nerve compressed in carpal tunnel syndrome?",
+   "a": "Median nerve"
+  },
+  {
+   "q": "Claw hand follows injury to which nerve?",
+   "a": "Ulnar nerve"
+  },
+  {
+   "q": "Roots involved in Erb's palsy?",
+   "a": "C5 and C6 (upper trunk); waiter's tip position"
+  },
+  {
+   "q": "Root value of the phrenic nerve?",
+   "a": "C3, C4, C5"
+  },
+  {
+   "q": "Cranial nerve with the longest intracranial course?",
+   "a": "Trochlear nerve (IV)"
+  },
+  {
+   "q": "Cranial nerve supplying the lateral rectus?",
+   "a": "Abducens (VI). Rule: LR6 SO4, rest by 3"
+  },
+  {
+   "q": "Largest cranial nerve?",
+   "a": "Trigeminal nerve (V)"
+  },
+  {
+   "q": "Valve between left atrium and left ventricle?",
+   "a": "Mitral (bicuspid) valve"
+  },
+  {
+   "q": "Artery supplying the SA node in most people?",
+   "a": "Right coronary artery"
+  },
+  {
+   "q": "Artery of cerebral haemorrhage (Charcot)?",
+   "a": "Lenticulostriate branch of the middle cerebral artery"
+  },
+  {
+   "q": "Lobes of the lungs?",
+   "a": "Right: 3 (upper, middle, lower). Left: 2 (upper with lingula, lower)"
+  },
+  {
+   "q": "Surface marking of McBurney's point?",
+   "a": "Junction of lateral one-third and medial two-thirds of the line from ASIS to umbilicus"
+  },
+  {
+   "q": "Level of the three diaphragm openings?",
+   "a": "IVC at T8, oesophagus at T10, aorta at T12"
+  }
+ ],
+ "physiology": [
+  {
+   "q": "Normal resting heart rate in an adult?",
+   "a": "60 to 100 beats per minute"
+  },
+  {
+   "q": "Normal arterial blood pressure?",
+   "a": "120/80 mmHg"
+  },
+  {
+   "q": "Natural pacemaker of the heart?",
+   "a": "Sinoatrial (SA) node, which has the fastest intrinsic rate"
+  },
+  {
+   "q": "Normal haemoglobin in adults (textbook range)?",
+   "a": "Men 14 to 18 g/dL; women 12 to 16 g/dL"
+  },
+  {
+   "q": "Life span of a red blood cell?",
+   "a": "About 120 days"
+  },
+  {
+   "q": "Normal total WBC count?",
+   "a": "4,000 to 11,000 per mm³"
+  },
+  {
+   "q": "Normal platelet count?",
+   "a": "1.5 to 4 lakh per mm³ (150,000 to 400,000)"
+  },
+  {
+   "q": "Normal glomerular filtration rate?",
+   "a": "About 125 mL/min"
+  },
+  {
+   "q": "Site of erythropoietin production?",
+   "a": "Kidney (peritubular interstitial cells)"
+  },
+  {
+   "q": "Hormones released from the posterior pituitary?",
+   "a": "ADH (vasopressin) and oxytocin, made in the hypothalamus"
+  },
+  {
+   "q": "Function and source of surfactant?",
+   "a": "Lowers alveolar surface tension; secreted by type II pneumocytes"
+  },
+  {
+   "q": "Normal tidal volume?",
+   "a": "About 500 mL"
+  },
+  {
+   "q": "Normal vital capacity (adult male)?",
+   "a": "About 4 to 5 litres"
+  },
+  {
+   "q": "Normal pH of arterial blood?",
+   "a": "7.35 to 7.45"
+  },
+  {
+   "q": "Ion that triggers muscle contraction by binding troponin C?",
+   "a": "Calcium"
+  },
+  {
+   "q": "Neurotransmitter at the neuromuscular junction?",
+   "a": "Acetylcholine"
+  },
+  {
+   "q": "Resting membrane potential of a neuron?",
+   "a": "About -70 mV (skeletal muscle about -90 mV)"
+  },
+  {
+   "q": "Cells that secrete HCl in the stomach?",
+   "a": "Parietal (oxyntic) cells"
+  },
+  {
+   "q": "Main site of nutrient absorption?",
+   "a": "Small intestine (mainly jejunum); iron in duodenum, B12 in terminal ileum"
+  },
+  {
+   "q": "Hormone that lowers blood glucose?",
+   "a": "Insulin, from beta cells of the islets of Langerhans"
+  }
+ ],
+ "biochemistry": [
+  {
+   "q": "Rate-limiting enzyme of glycolysis?",
+   "a": "Phosphofructokinase-1"
+  },
+  {
+   "q": "Net ATP from anaerobic glycolysis of one glucose?",
+   "a": "2 ATP"
+  },
+  {
+   "q": "End product of anaerobic glycolysis?",
+   "a": "Lactate"
+  },
+  {
+   "q": "Site of the TCA cycle?",
+   "a": "Mitochondrial matrix"
+  },
+  {
+   "q": "Site of glycolysis?",
+   "a": "Cytoplasm (cytosol)"
+  },
+  {
+   "q": "Essential fatty acids?",
+   "a": "Linoleic acid and alpha-linolenic acid"
+  },
+  {
+   "q": "How many essential amino acids?",
+   "a": "9: Phe, Val, Thr, Trp, Ile, Met, His, Leu, Lys"
+  },
+  {
+   "q": "Deficiency causing beriberi?",
+   "a": "Thiamine (vitamin B1)"
+  },
+  {
+   "q": "Deficiency causing pellagra?",
+   "a": "Niacin (vitamin B3); features: dermatitis, diarrhoea, dementia"
+  },
+  {
+   "q": "Deficiency causing scurvy?",
+   "a": "Vitamin C (ascorbic acid)"
+  },
+  {
+   "q": "Deficiency causing rickets and osteomalacia?",
+   "a": "Vitamin D"
+  },
+  {
+   "q": "Deficiency causing night blindness?",
+   "a": "Vitamin A"
+  },
+  {
+   "q": "Vitamin deficiency causing pernicious anaemia?",
+   "a": "Vitamin B12 (lack of intrinsic factor)"
+  },
+  {
+   "q": "Enzyme deficient in phenylketonuria?",
+   "a": "Phenylalanine hydroxylase"
+  },
+  {
+   "q": "Normal fasting blood glucose?",
+   "a": "70 to 100 mg/dL"
+  },
+  {
+   "q": "Storage form of carbohydrate in animals?",
+   "a": "Glycogen (liver and muscle)"
+  },
+  {
+   "q": "Bond linking amino acids?",
+   "a": "Peptide bond"
+  },
+  {
+   "q": "Bond linking nucleotides?",
+   "a": "Phosphodiester bond"
+  },
+  {
+   "q": "Which lipoprotein is called bad cholesterol?",
+   "a": "LDL"
+  },
+  {
+   "q": "Which lipoprotein is called good cholesterol and why?",
+   "a": "HDL; it carries cholesterol back to the liver"
+  }
+ ],
+ "psychology": [
+  {
+   "q": "Father of psychoanalysis?",
+   "a": "Sigmund Freud"
+  },
+  {
+   "q": "Father of experimental psychology?",
+   "a": "Wilhelm Wundt (first laboratory, Leipzig, 1879)"
+  },
+  {
+   "q": "Freud's three structures of personality?",
+   "a": "Id, ego, superego"
+  },
+  {
+   "q": "Who discovered classical conditioning?",
+   "a": "Ivan Pavlov"
+  },
+  {
+   "q": "Who developed operant conditioning?",
+   "a": "B.F. Skinner"
+  },
+  {
+   "q": "Highest need in Maslow's hierarchy?",
+   "a": "Self-actualisation"
+  },
+  {
+   "q": "Piaget's four stages of cognitive development?",
+   "a": "Sensorimotor, preoperational, concrete operational, formal operational"
+  },
+  {
+   "q": "How many psychosocial stages did Erikson describe?",
+   "a": "Eight"
+  },
+  {
+   "q": "Formula for IQ?",
+   "a": "(Mental age / chronological age) x 100"
+  },
+  {
+   "q": "Average IQ range?",
+   "a": "About 90 to 109 (mean 100)"
+  },
+  {
+   "q": "Who developed the first intelligence test?",
+   "a": "Alfred Binet with Theodore Simon (1905)"
+  },
+  {
+   "q": "Defence mechanism of pushing distressing thoughts out of awareness?",
+   "a": "Repression"
+  },
+  {
+   "q": "What is projection?",
+   "a": "Attributing one's own unacceptable feelings to others"
+  },
+  {
+   "q": "Capacity of short-term memory?",
+   "a": "About 7 plus or minus 2 items (Miller)"
+  },
+  {
+   "q": "Who proposed cognitive dissonance theory?",
+   "a": "Leon Festinger"
+  },
+  {
+   "q": "Big Five personality traits (OCEAN)?",
+   "a": "Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism"
+  },
+  {
+   "q": "Features of Type A personality?",
+   "a": "Competitive, time-urgent, hostile; higher risk of heart disease"
+  },
+  {
+   "q": "Stages of Selye's General Adaptation Syndrome?",
+   "a": "Alarm, resistance, exhaustion"
+  },
+  {
+   "q": "What kind of test is the Rorschach?",
+   "a": "Projective personality test using inkblots"
+  },
+  {
+   "q": "Who proposed the theory of multiple intelligences?",
+   "a": "Howard Gardner"
+  }
+ ],
+ "pathology": [
+  {
+   "q": "Hallmark of reversible cell injury?",
+   "a": "Cellular swelling (hydropic change) and fatty change"
+  },
+  {
+   "q": "Nuclear changes of irreversible injury?",
+   "a": "Pyknosis, karyorrhexis, karyolysis"
+  },
+  {
+   "q": "Typical site of coagulative necrosis?",
+   "a": "Solid organs such as heart and kidney (infarcts), not brain"
+  },
+  {
+   "q": "Typical site of liquefactive necrosis?",
+   "a": "Brain, and abscesses"
+  },
+  {
+   "q": "Which disease causes caseous necrosis?",
+   "a": "Tuberculosis"
+  },
+  {
+   "q": "Fat necrosis is classically seen in?",
+   "a": "Acute pancreatitis (enzymatic fat necrosis, saponification)"
+  },
+  {
+   "q": "Enzymes that carry out apoptosis?",
+   "a": "Caspases"
+  },
+  {
+   "q": "Dystrophic calcification?",
+   "a": "Calcium deposition in dead tissue with normal serum calcium"
+  },
+  {
+   "q": "Five cardinal signs of inflammation?",
+   "a": "Rubor, calor, tumor, dolor, functio laesa"
+  },
+  {
+   "q": "First cell to arrive in acute inflammation?",
+   "a": "Neutrophil (within 6 to 24 hours)"
+  },
+  {
+   "q": "Cells of chronic inflammation?",
+   "a": "Macrophages, lymphocytes, plasma cells"
+  },
+  {
+   "q": "Features of a tubercular granuloma?",
+   "a": "Epithelioid cells, Langhans giant cells, central caseation"
+  },
+  {
+   "q": "Virchow's triad?",
+   "a": "Stasis, endothelial injury, hypercoagulability"
+  },
+  {
+   "q": "Which feature distinguishes a thrombus from a post-mortem clot?",
+   "a": "Lines of Zahn"
+  },
+  {
+   "q": "Most common source of pulmonary embolism?",
+   "a": "Deep veins of the leg"
+  },
+  {
+   "q": "Hypertrophy versus hyperplasia?",
+   "a": "Hypertrophy: bigger cells. Hyperplasia: more cells"
+  },
+  {
+   "q": "What is metaplasia?",
+   "a": "Reversible replacement of one adult cell type by another"
+  },
+  {
+   "q": "What is dysplasia?",
+   "a": "Disordered cell growth, a pre-neoplastic change"
+  },
+  {
+   "q": "Hallmark of malignancy?",
+   "a": "Invasion and metastasis"
+  },
+  {
+   "q": "Reed-Sternberg cells are seen in?",
+   "a": "Hodgkin lymphoma"
+  }
+ ],
+ "microbiology": [
+  {
+   "q": "Who proposed the postulates for proving that a microbe causes a disease?",
+   "a": "Robert Koch (Koch's postulates)"
+  },
+  {
+   "q": "Louis Pasteur's main contributions?",
+   "a": "Germ theory, pasteurisation, rabies and anthrax vaccines"
+  },
+  {
+   "q": "Colour of Gram-positive and Gram-negative bacteria?",
+   "a": "Gram-positive purple; Gram-negative pink or red (safranin counterstain)"
+  },
+  {
+   "q": "Stain used for acid-fast bacilli?",
+   "a": "Ziehl-Neelsen stain (carbol fuchsin)"
+  },
+  {
+   "q": "Culture medium for Mycobacterium tuberculosis?",
+   "a": "Lowenstein-Jensen medium"
+  },
+  {
+   "q": "Selective medium for Vibrio cholerae?",
+   "a": "TCBS agar (yellow colonies)"
+  },
+  {
+   "q": "Causative agent of typhoid fever and the classic serological test?",
+   "a": "Salmonella Typhi; Widal test"
+  },
+  {
+   "q": "Organism causing tetanus and its toxin?",
+   "a": "Clostridium tetani; tetanospasmin (drumstick spores)"
+  },
+  {
+   "q": "Organism causing diphtheria and the stain used?",
+   "a": "Corynebacterium diphtheriae; Albert stain"
+  },
+  {
+   "q": "Inclusion bodies of rabies?",
+   "a": "Negri bodies (rabies is caused by a lyssavirus)"
+  },
+  {
+   "q": "Main target cell of HIV?",
+   "a": "CD4 positive T helper cells (gp120 binds CD4)"
+  },
+  {
+   "q": "Earliest serological marker of hepatitis B infection?",
+   "a": "HBsAg"
+  },
+  {
+   "q": "Vector of malaria?",
+   "a": "Female Anopheles mosquito"
+  },
+  {
+   "q": "Vector of dengue?",
+   "a": "Aedes aegypti"
+  },
+  {
+   "q": "Autoclave conditions for sterilisation?",
+   "a": "121 degrees C, 15 psi, 15 minutes"
+  },
+  {
+   "q": "Hot air oven conditions?",
+   "a": "160 degrees C for 2 hours"
+  },
+  {
+   "q": "Most heat-resistant bacterial form?",
+   "a": "Spores"
+  },
+  {
+   "q": "First antibody produced in a primary immune response?",
+   "a": "IgM"
+  },
+  {
+   "q": "Antibody that crosses the placenta?",
+   "a": "IgG"
+  },
+  {
+   "q": "Antibody involved in allergy and helminth infections?",
+   "a": "IgE"
+  }
+ ],
+ "fmt": [
+  {
+   "q": "What is algor mortis?",
+   "a": "Post-mortem cooling of the body toward the surrounding temperature"
+  },
+  {
+   "q": "What is livor mortis (hypostasis)?",
+   "a": "Purple discolouration from gravitational settling of blood; appears in 1 to 2 hours and becomes fixed in about 6 to 12 hours"
+  },
+  {
+   "q": "Timeline of rigor mortis?",
+   "a": "Begins in 1 to 2 hours, complete by about 12 hours, passes off in 24 to 48 hours"
+  },
+  {
+   "q": "What is cadaveric spasm?",
+   "a": "Instantaneous stiffening at the moment of death, usually after intense emotion or violence"
+  },
+  {
+   "q": "Earliest external sign of putrefaction?",
+   "a": "Greenish discolouration over the right iliac fossa"
+  },
+  {
+   "q": "Ligature mark in hanging?",
+   "a": "Oblique, non-continuous, above the thyroid cartilage"
+  },
+  {
+   "q": "Ligature mark in strangulation?",
+   "a": "Horizontal, complete, at or below the thyroid cartilage"
+  },
+  {
+   "q": "Cherry-red post-mortem lividity suggests?",
+   "a": "Carbon monoxide poisoning"
+  },
+  {
+   "q": "Chocolate-brown lividity suggests?",
+   "a": "Nitrites, chlorates or aniline (methaemoglobin)"
+  },
+  {
+   "q": "Garlic odour suggests poisoning with?",
+   "a": "Arsenic, phosphorus or organophosphates"
+  },
+  {
+   "q": "Bitter almond odour suggests?",
+   "a": "Cyanide poisoning"
+  },
+  {
+   "q": "Antidotes for organophosphate poisoning?",
+   "a": "Atropine and pralidoxime (2-PAM)"
+  },
+  {
+   "q": "Antidote for paracetamol poisoning?",
+   "a": "N-acetylcysteine"
+  },
+  {
+   "q": "Antidote for opioid poisoning?",
+   "a": "Naloxone"
+  },
+  {
+   "q": "Chelating agents for arsenic and lead?",
+   "a": "BAL (dimercaprol) for arsenic; EDTA for lead"
+  },
+  {
+   "q": "Antidote for snake venom?",
+   "a": "Polyvalent anti-snake venom (ASV)"
+  },
+  {
+   "q": "Lucid interval is classic in which injury?",
+   "a": "Extradural (epidural) haemorrhage"
+  },
+  {
+   "q": "Four Ds of medical negligence?",
+   "a": "Duty, Dereliction of duty, Direct causation, Damage"
+  },
+  {
+   "q": "What is a dying declaration?",
+   "a": "A statement by a dying person about the cause or circumstances of their death; admissible as evidence"
+  },
+  {
+   "q": "What is a contusion?",
+   "a": "A bruise: bleeding into tissues without a break in the skin"
+  }
+ ]
+}

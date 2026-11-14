@@ -1,0 +1,1556 @@
+{
+ "anatomy": [
+  {
+   "q": "Wrist drop is caused by injury to which nerve?",
+   "o": [
+    "Median",
+    "Ulnar",
+    "Radial",
+    "Axillary"
+   ],
+   "a": 2,
+   "e": "The radial nerve supplies the wrist extensors."
+  },
+  {
+   "q": "Which is NOT a rotator cuff muscle?",
+   "o": [
+    "Supraspinatus",
+    "Infraspinatus",
+    "Subscapularis",
+    "Teres major"
+   ],
+   "a": 3,
+   "e": "Teres minor is in the cuff, not teres major."
+  },
+  {
+   "q": "The medulla oblongata passes through the:",
+   "o": [
+    "Optic canal",
+    "Foramen magnum",
+    "Foramen ovale",
+    "Jugular foramen"
+   ],
+   "a": 1,
+   "e": "The brainstem becomes the spinal cord at the foramen magnum."
+  },
+  {
+   "q": "Vein most often used for venepuncture in the cubital fossa:",
+   "o": [
+    "Median cubital vein",
+    "Brachial vein",
+    "Axillary vein",
+    "Radial vein"
+   ],
+   "a": 0,
+   "e": "It connects the cephalic and basilic veins."
+  },
+  {
+   "q": "Nerve supply of biceps brachii:",
+   "o": [
+    "Radial",
+    "Musculocutaneous",
+    "Ulnar",
+    "Median"
+   ],
+   "a": 1,
+   "e": "The musculocutaneous nerve supplies the anterior arm."
+  },
+  {
+   "q": "Largest paranasal sinus:",
+   "o": [
+    "Frontal",
+    "Ethmoid",
+    "Sphenoid",
+    "Maxillary"
+   ],
+   "a": 3,
+   "e": "Maxillary sinus (antrum of Highmore)."
+  },
+  {
+   "q": "The thoracic duct ends at the junction of:",
+   "o": [
+    "Right subclavian and right internal jugular vein",
+    "Left subclavian and left internal jugular vein",
+    "SVC and right atrium",
+    "Azygos vein and SVC"
+   ],
+   "a": 1,
+   "e": "It drains into the left venous angle."
+  },
+  {
+   "q": "The lesser sac communicates with the greater sac through the:",
+   "o": [
+    "Epiploic foramen",
+    "Foramen of Monro",
+    "Deep inguinal ring",
+    "Aortic hiatus"
+   ],
+   "a": 0,
+   "e": "Epiploic foramen of Winslow."
+  },
+  {
+   "q": "Which structure passes through the carpal tunnel?",
+   "o": [
+    "Ulnar nerve",
+    "Radial artery",
+    "Median nerve",
+    "Palmaris longus tendon"
+   ],
+   "a": 2,
+   "e": "Median nerve plus nine flexor tendons."
+  },
+  {
+   "q": "Afferent limb of the corneal reflex is carried by:",
+   "o": [
+    "Facial nerve",
+    "Ophthalmic division of trigeminal",
+    "Oculomotor nerve",
+    "Optic nerve"
+   ],
+   "a": 1,
+   "e": "The efferent limb is the facial nerve."
+  },
+  {
+   "q": "Muscle that unlocks the extended knee:",
+   "o": [
+    "Popliteus",
+    "Gastrocnemius",
+    "Sartorius",
+    "Soleus"
+   ],
+   "a": 0,
+   "e": "Popliteus rotates the femur laterally on the fixed tibia."
+  },
+  {
+   "q": "Dorsalis pedis artery is a continuation of:",
+   "o": [
+    "Posterior tibial artery",
+    "Peroneal artery",
+    "Anterior tibial artery",
+    "Popliteal artery"
+   ],
+   "a": 2,
+   "e": "It begins at the ankle."
+  },
+  {
+   "q": "Winging of the scapula is due to paralysis of:",
+   "o": [
+    "Trapezius",
+    "Serratus anterior",
+    "Deltoid",
+    "Latissimus dorsi"
+   ],
+   "a": 1,
+   "e": "Long thoracic nerve of Bell."
+  },
+  {
+   "q": "The only abductor of the vocal cords:",
+   "o": [
+    "Lateral cricoarytenoid",
+    "Posterior cricoarytenoid",
+    "Cricothyroid",
+    "Thyroarytenoid"
+   ],
+   "a": 1,
+   "e": "Safety muscle of the larynx."
+  },
+  {
+   "q": "Foot drop results from injury to the:",
+   "o": [
+    "Tibial nerve",
+    "Femoral nerve",
+    "Common peroneal nerve",
+    "Obturator nerve"
+   ],
+   "a": 2,
+   "e": "Common fibular nerve at the neck of the fibula."
+  },
+  {
+   "q": "The transpyloric plane lies at the vertebral level:",
+   "o": [
+    "T10",
+    "L1",
+    "L3",
+    "L5"
+   ],
+   "a": 1,
+   "e": "Midway between jugular notch and pubic symphysis."
+  },
+  {
+   "q": "The normal apex beat is felt in the:",
+   "o": [
+    "4th left intercostal space, midclavicular line",
+    "5th left intercostal space, midclavicular line",
+    "6th left intercostal space, anterior axillary line",
+    "5th right intercostal space"
+   ],
+   "a": 1,
+   "e": "Left ventricle forms the apex."
+  },
+  {
+   "q": "Number of pairs of cranial nerves:",
+   "o": [
+    "10",
+    "12",
+    "14",
+    "31"
+   ],
+   "a": 1,
+   "e": "31 is the number of spinal nerve pairs."
+  },
+  {
+   "q": "The appendicular artery is a branch of the:",
+   "o": [
+    "Right colic artery",
+    "Ileocolic artery",
+    "Inferior mesenteric artery",
+    "Splenic artery"
+   ],
+   "a": 1,
+   "e": "Ileocolic, from the superior mesenteric artery."
+  },
+  {
+   "q": "Motor nerve supply of the diaphragm:",
+   "o": [
+    "Vagus",
+    "Intercostal",
+    "Accessory",
+    "Phrenic"
+   ],
+   "a": 3,
+   "e": "C3, C4, C5 keep the diaphragm alive."
+  }
+ ],
+ "physiology": [
+  {
+   "q": "Which hormone is called the stress hormone?",
+   "o": [
+    "Insulin",
+    "Cortisol",
+    "Thyroxine",
+    "Oxytocin"
+   ],
+   "a": 1,
+   "e": "Cortisol rises during physical and emotional stress."
+  },
+  {
+   "q": "Universal red cell donor group:",
+   "o": [
+    "A",
+    "B",
+    "AB",
+    "O"
+   ],
+   "a": 3,
+   "e": "Group O red cells carry no A or B antigens."
+  },
+  {
+   "q": "Bile is stored in the:",
+   "o": [
+    "Liver",
+    "Gallbladder",
+    "Pancreas",
+    "Duodenum"
+   ],
+   "a": 1,
+   "e": "The gallbladder concentrates and stores bile."
+  },
+  {
+   "q": "Starling's law of the heart states that force of contraction depends on:",
+   "o": [
+    "Heart rate",
+    "Initial fibre length (end-diastolic volume)",
+    "Blood pH",
+    "Body temperature"
+   ],
+   "a": 1,
+   "e": "More filling gives a stronger beat, within limits."
+  },
+  {
+   "q": "Most filtered water is reabsorbed in the:",
+   "o": [
+    "Proximal convoluted tubule",
+    "Loop of Henle",
+    "Distal tubule",
+    "Collecting duct"
+   ],
+   "a": 0,
+   "e": "About 65 percent is reabsorbed in the PCT."
+  },
+  {
+   "q": "Which clotting factor is vitamin K dependent?",
+   "o": [
+    "Factor VIII",
+    "Factor V",
+    "Factor X",
+    "Factor XIII"
+   ],
+   "a": 2,
+   "e": "Factors II, VII, IX and X depend on vitamin K."
+  },
+  {
+   "q": "The main respiratory centre lies in the:",
+   "o": [
+    "Cerebellum",
+    "Medulla oblongata",
+    "Thalamus",
+    "Cerebrum"
+   ],
+   "a": 1,
+   "e": "The medullary centres set the basic rhythm."
+  },
+  {
+   "q": "The pituitary is called the master gland because it:",
+   "o": [
+    "Is the largest gland",
+    "Controls many other endocrine glands",
+    "Makes insulin",
+    "Lies in the brain"
+   ],
+   "a": 1,
+   "e": "Its tropic hormones regulate thyroid, adrenal and gonads."
+  },
+  {
+   "q": "ADH mainly acts on the:",
+   "o": [
+    "Glomerulus",
+    "Proximal tubule",
+    "Collecting duct",
+    "Ascending limb"
+   ],
+   "a": 2,
+   "e": "It inserts aquaporin 2 to increase water reabsorption."
+  },
+  {
+   "q": "Normal cardiac output at rest is about:",
+   "o": [
+    "1 L/min",
+    "2 L/min",
+    "5 L/min",
+    "12 L/min"
+   ],
+   "a": 2,
+   "e": "Stroke volume 70 mL times heart rate 72."
+  },
+  {
+   "q": "Antibodies are produced by:",
+   "o": [
+    "Neutrophils",
+    "Plasma cells",
+    "Platelets",
+    "Monocytes"
+   ],
+   "a": 1,
+   "e": "Plasma cells are activated B lymphocytes."
+  },
+  {
+   "q": "The all-or-none law applies to a:",
+   "o": [
+    "Whole skeletal muscle",
+    "Single nerve fibre",
+    "Smooth muscle tone",
+    "Graded potential"
+   ],
+   "a": 1,
+   "e": "Below threshold, no action potential occurs."
+  },
+  {
+   "q": "Intrinsic factor is secreted by:",
+   "o": [
+    "Chief cells",
+    "Parietal cells",
+    "G cells",
+    "Mucous neck cells"
+   ],
+   "a": 1,
+   "e": "It is needed for vitamin B12 absorption."
+  },
+  {
+   "q": "Which hormone surge triggers ovulation?",
+   "o": [
+    "FSH",
+    "Progesterone",
+    "LH",
+    "Prolactin"
+   ],
+   "a": 2,
+   "e": "The LH surge occurs about 36 hours before ovulation."
+  },
+  {
+   "q": "Which vitamin is needed to form rhodopsin?",
+   "o": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin K"
+   ],
+   "a": 0,
+   "e": "Deficiency causes night blindness."
+  },
+  {
+   "q": "Gas exchange occurs mainly in the:",
+   "o": [
+    "Trachea",
+    "Bronchi",
+    "Alveoli",
+    "Pleura"
+   ],
+   "a": 2,
+   "e": "Across the thin respiratory membrane."
+  },
+  {
+   "q": "Starch digestion begins in the mouth by:",
+   "o": [
+    "Pepsin",
+    "Salivary amylase",
+    "Lipase",
+    "Trypsin"
+   ],
+   "a": 1,
+   "e": "Salivary amylase (ptyalin)."
+  },
+  {
+   "q": "Hyperventilation causes:",
+   "o": [
+    "Respiratory acidosis",
+    "Respiratory alkalosis",
+    "Metabolic acidosis",
+    "Metabolic alkalosis"
+   ],
+   "a": 1,
+   "e": "Excess CO2 is blown off."
+  },
+  {
+   "q": "Hormone that raises blood calcium:",
+   "o": [
+    "Calcitonin",
+    "Parathormone",
+    "Insulin",
+    "Glucagon"
+   ],
+   "a": 1,
+   "e": "PTH acts on bone, kidney and, via vitamin D, gut."
+  },
+  {
+   "q": "Main cation in intracellular fluid:",
+   "o": [
+    "Sodium",
+    "Potassium",
+    "Calcium",
+    "Chloride"
+   ],
+   "a": 1,
+   "e": "Sodium is the main extracellular cation."
+  }
+ ],
+ "biochemistry": [
+  {
+   "q": "Km is the substrate concentration at which:",
+   "o": [
+    "Enzyme is denatured",
+    "Velocity is half of Vmax",
+    "Velocity is maximum",
+    "Inhibition is complete"
+   ],
+   "a": 1,
+   "e": "Km is inversely related to affinity."
+  },
+  {
+   "q": "Precursor of serotonin:",
+   "o": [
+    "Tyrosine",
+    "Tryptophan",
+    "Histidine",
+    "Glycine"
+   ],
+   "a": 1,
+   "e": "Tryptophan gives 5-hydroxytryptamine."
+  },
+  {
+   "q": "Purely ketogenic amino acids:",
+   "o": [
+    "Alanine and glycine",
+    "Leucine and lysine",
+    "Serine and cysteine",
+    "Valine and proline"
+   ],
+   "a": 1,
+   "e": "They yield only acetyl-CoA or acetoacetate."
+  },
+  {
+   "q": "Hartnup disease affects absorption of:",
+   "o": [
+    "Neutral amino acids",
+    "Glucose",
+    "Fats",
+    "Vitamin B12"
+   ],
+   "a": 0,
+   "e": "Tryptophan loss can cause pellagra-like features."
+  },
+  {
+   "q": "Enzyme deficient in von Gierke disease:",
+   "o": [
+    "Glucose-6-phosphatase",
+    "Muscle phosphorylase",
+    "Branching enzyme",
+    "Debranching enzyme"
+   ],
+   "a": 0,
+   "e": "Glycogen storage disease type I."
+  },
+  {
+   "q": "The Cori cycle links:",
+   "o": [
+    "Liver and muscle",
+    "Kidney and brain",
+    "Heart and lung",
+    "Gut and liver"
+   ],
+   "a": 0,
+   "e": "Muscle lactate is converted to glucose in the liver."
+  },
+  {
+   "q": "Coenzyme for transamination:",
+   "o": [
+    "Thiamine pyrophosphate",
+    "Pyridoxal phosphate",
+    "Biotin",
+    "Folate"
+   ],
+   "a": 1,
+   "e": "Derived from vitamin B6."
+  },
+  {
+   "q": "Desirable total serum cholesterol:",
+   "o": [
+    "Below 200 mg/dL",
+    "200 to 239 mg/dL",
+    "240 to 300 mg/dL",
+    "Above 300 mg/dL"
+   ],
+   "a": 0,
+   "e": "200 to 239 is borderline high."
+  },
+  {
+   "q": "Rate-limiting enzyme of cholesterol synthesis:",
+   "o": [
+    "HMG-CoA synthase",
+    "HMG-CoA reductase",
+    "Lipase",
+    "Acetyl-CoA carboxylase"
+   ],
+   "a": 1,
+   "e": "Statins inhibit it."
+  },
+  {
+   "q": "End product of purine catabolism in humans:",
+   "o": [
+    "Urea",
+    "Allantoin",
+    "Uric acid",
+    "Ammonia"
+   ],
+   "a": 2,
+   "e": "Excess causes gout."
+  },
+  {
+   "q": "Which enzyme rises in acute pancreatitis?",
+   "o": [
+    "ALP",
+    "Amylase",
+    "ALT",
+    "Acid phosphatase"
+   ],
+   "a": 1,
+   "e": "Lipase is more specific."
+  },
+  {
+   "q": "Most specific marker of myocardial infarction:",
+   "o": [
+    "Troponin",
+    "LDH",
+    "AST",
+    "Myoglobin"
+   ],
+   "a": 0,
+   "e": "Cardiac troponin I or T."
+  },
+  {
+   "q": "Bilirubin is formed from the breakdown of:",
+   "o": [
+    "Haem",
+    "Globin",
+    "Collagen",
+    "Myoglobin only"
+   ],
+   "a": 0,
+   "e": "Haem is converted to biliverdin then bilirubin."
+  },
+  {
+   "q": "Oxidative phosphorylation occurs in the:",
+   "o": [
+    "Cytosol",
+    "Inner mitochondrial membrane",
+    "Nucleus",
+    "Golgi apparatus"
+   ],
+   "a": 1,
+   "e": "The electron transport chain sits there."
+  },
+  {
+   "q": "Enzyme that joins Okazaki fragments:",
+   "o": [
+    "DNA polymerase III",
+    "Helicase",
+    "DNA ligase",
+    "Primase"
+   ],
+   "a": 2,
+   "e": "Ligase seals the nicks."
+  },
+  {
+   "q": "Sickle cell anaemia results from replacement of:",
+   "o": [
+    "Valine by glutamate",
+    "Glutamate by valine",
+    "Lysine by glutamate",
+    "Glycine by alanine"
+   ],
+   "a": 1,
+   "e": "At position 6 of the beta chain."
+  },
+  {
+   "q": "Vitamin needed for gamma-carboxylation of clotting factors:",
+   "o": [
+    "Vitamin A",
+    "Vitamin E",
+    "Vitamin K",
+    "Vitamin C"
+   ],
+   "a": 2,
+   "e": "Warfarin blocks its recycling."
+  },
+  {
+   "q": "Urine that turns black on standing is seen in:",
+   "o": [
+    "Alkaptonuria",
+    "Phenylketonuria",
+    "Cystinuria",
+    "Albinism"
+   ],
+   "a": 0,
+   "e": "Homogentisate oxidase deficiency."
+  },
+  {
+   "q": "Most important blood buffer:",
+   "o": [
+    "Phosphate",
+    "Haemoglobin",
+    "Bicarbonate",
+    "Protein"
+   ],
+   "a": 2,
+   "e": "Bicarbonate has the highest capacity in plasma."
+  },
+  {
+   "q": "Which is an essential amino acid?",
+   "o": [
+    "Alanine",
+    "Glutamate",
+    "Lysine",
+    "Serine"
+   ],
+   "a": 2,
+   "e": "It must come from the diet."
+  }
+ ],
+ "psychology": [
+  {
+   "q": "Who proposed multiple intelligences?",
+   "o": [
+    "Spearman",
+    "Gardner",
+    "Binet",
+    "Thurstone"
+   ],
+   "a": 1,
+   "e": "Gardner listed linguistic, logical, musical and other intelligences."
+  },
+  {
+   "q": "The Little Albert experiment on conditioned fear was done by:",
+   "o": [
+    "Pavlov",
+    "Watson and Rayner",
+    "Skinner",
+    "Bandura"
+   ],
+   "a": 1,
+   "e": "A fear response to a white rat was conditioned."
+  },
+  {
+   "q": "Which part of personality follows the pleasure principle?",
+   "o": [
+    "Id",
+    "Ego",
+    "Superego",
+    "Conscious"
+   ],
+   "a": 0,
+   "e": "The id seeks immediate gratification."
+  },
+  {
+   "q": "Which part of personality follows the reality principle?",
+   "o": [
+    "Id",
+    "Superego",
+    "Ego",
+    "Unconscious"
+   ],
+   "a": 2,
+   "e": "The ego mediates between id and reality."
+  },
+  {
+   "q": "Which memory store has practically unlimited capacity?",
+   "o": [
+    "Sensory memory",
+    "Short-term memory",
+    "Working memory",
+    "Long-term memory"
+   ],
+   "a": 3,
+   "e": "Long-term memory can last a lifetime."
+  },
+  {
+   "q": "The forgetting curve was described by:",
+   "o": [
+    "Ebbinghaus",
+    "Bartlett",
+    "Atkinson",
+    "Miller"
+   ],
+   "a": 0,
+   "e": "Hermann Ebbinghaus studied nonsense syllables."
+  },
+  {
+   "q": "Kohlberg's theory deals with:",
+   "o": [
+    "Intelligence",
+    "Moral development",
+    "Personality",
+    "Emotion"
+   ],
+   "a": 1,
+   "e": "Preconventional, conventional and postconventional levels."
+  },
+  {
+   "q": "Giving socially acceptable but false reasons for failure is:",
+   "o": [
+    "Projection",
+    "Denial",
+    "Rationalisation",
+    "Regression"
+   ],
+   "a": 2,
+   "e": "Rationalisation protects self-esteem."
+  },
+  {
+   "q": "Negative reinforcement means:",
+   "o": [
+    "Adding a punishment",
+    "Removing an unpleasant stimulus to increase behaviour",
+    "Stopping a reward",
+    "Ignoring behaviour"
+   ],
+   "a": 1,
+   "e": "It strengthens behaviour, unlike punishment."
+  },
+  {
+   "q": "Which is a projective test?",
+   "o": [
+    "MMPI",
+    "TAT",
+    "Binet scale",
+    "Wechsler scale"
+   ],
+   "a": 1,
+   "e": "Thematic Apperception Test."
+  },
+  {
+   "q": "An IQ below 70 suggests:",
+   "o": [
+    "Superior intelligence",
+    "Average intelligence",
+    "Intellectual disability",
+    "Giftedness"
+   ],
+   "a": 2,
+   "e": "Adaptive functioning is also assessed."
+  },
+  {
+   "q": "The fight or flight response is mediated by the:",
+   "o": [
+    "Parasympathetic system",
+    "Sympathetic system",
+    "Somatic system",
+    "Enteric system"
+   ],
+   "a": 1,
+   "e": "Adrenaline and noradrenaline are released."
+  },
+  {
+   "q": "The James-Lange theory says that:",
+   "o": [
+    "Emotion comes before bodily change",
+    "Bodily reaction comes before emotion",
+    "Both are unrelated",
+    "Emotion is learned only"
+   ],
+   "a": 1,
+   "e": "We feel afraid because we tremble."
+  },
+  {
+   "q": "Bandura is known for:",
+   "o": [
+    "Psychoanalysis",
+    "Social learning theory",
+    "Behaviourism",
+    "Gestalt theory"
+   ],
+   "a": 1,
+   "e": "The Bobo doll experiments."
+  },
+  {
+   "q": "Intrinsic motivation comes from:",
+   "o": [
+    "Money",
+    "Internal satisfaction",
+    "Fear",
+    "Praise from others"
+   ],
+   "a": 1,
+   "e": "The activity itself is rewarding."
+  },
+  {
+   "q": "Object permanence develops in Piaget's:",
+   "o": [
+    "Sensorimotor stage",
+    "Preoperational stage",
+    "Concrete operational stage",
+    "Formal operational stage"
+   ],
+   "a": 0,
+   "e": "Roughly birth to two years."
+  },
+  {
+   "q": "The cocktail party effect illustrates:",
+   "o": [
+    "Divided attention",
+    "Selective attention",
+    "Sustained attention",
+    "Habituation"
+   ],
+   "a": 1,
+   "e": "You tune in to one voice among many."
+  },
+  {
+   "q": "The MMPI is a:",
+   "o": [
+    "Projective test",
+    "Self-report personality inventory",
+    "Intelligence test",
+    "Aptitude test"
+   ],
+   "a": 1,
+   "e": "Minnesota Multiphasic Personality Inventory."
+  },
+  {
+   "q": "A phobia is classified as a type of:",
+   "o": [
+    "Mood disorder",
+    "Anxiety disorder",
+    "Psychotic disorder",
+    "Personality disorder"
+   ],
+   "a": 1,
+   "e": "An irrational, persistent fear."
+  },
+  {
+   "q": "Insight learning is associated with:",
+   "o": [
+    "Pavlov",
+    "Skinner",
+    "Kohler",
+    "Thorndike"
+   ],
+   "a": 2,
+   "e": "Kohler's experiments with chimpanzees."
+  }
+ ],
+ "pathology": [
+  {
+   "q": "Which necrosis is typical of tuberculosis?",
+   "o": [
+    "Coagulative",
+    "Liquefactive",
+    "Caseous",
+    "Fibrinoid"
+   ],
+   "a": 2,
+   "e": "Cheese-like granular debris."
+  },
+  {
+   "q": "First cells to arrive in acute inflammation:",
+   "o": [
+    "Lymphocytes",
+    "Neutrophils",
+    "Plasma cells",
+    "Eosinophils"
+   ],
+   "a": 1,
+   "e": "They dominate in the first hours."
+  },
+  {
+   "q": "Microcytic hypochromic anaemia is typical of:",
+   "o": [
+    "Vitamin B12 deficiency",
+    "Iron deficiency",
+    "Folate deficiency",
+    "Aplastic anaemia"
+   ],
+   "a": 1,
+   "e": "Low MCV and low MCH."
+  },
+  {
+   "q": "Megaloblastic anaemia is due to deficiency of:",
+   "o": [
+    "Iron",
+    "Vitamin B12 or folate",
+    "Vitamin K",
+    "Vitamin C"
+   ],
+   "a": 1,
+   "e": "Impaired DNA synthesis."
+  },
+  {
+   "q": "The Philadelphia chromosome t(9;22) is seen in:",
+   "o": [
+    "CML",
+    "CLL",
+    "AML",
+    "Hodgkin lymphoma"
+   ],
+   "a": 0,
+   "e": "BCR-ABL fusion gene."
+  },
+  {
+   "q": "Mallory bodies are seen in:",
+   "o": [
+    "Viral hepatitis",
+    "Alcoholic hepatitis",
+    "Wilson disease only",
+    "Cholestasis"
+   ],
+   "a": 1,
+   "e": "Eosinophilic cytoplasmic inclusions."
+  },
+  {
+   "q": "Tumour marker for hepatocellular carcinoma:",
+   "o": [
+    "CEA",
+    "CA-125",
+    "Alpha-fetoprotein",
+    "PSA"
+   ],
+   "a": 2,
+   "e": "AFP is also raised in germ cell tumours."
+  },
+  {
+   "q": "Reed-Sternberg cells are diagnostic of:",
+   "o": [
+    "Non-Hodgkin lymphoma",
+    "Hodgkin lymphoma",
+    "Myeloma",
+    "Leukaemia"
+   ],
+   "a": 1,
+   "e": "Owl-eye binucleate cells."
+  },
+  {
+   "q": "Cells characteristic of granulomatous inflammation:",
+   "o": [
+    "Neutrophils",
+    "Epithelioid macrophages",
+    "Mast cells",
+    "Basophils"
+   ],
+   "a": 1,
+   "e": "Activated macrophages form granulomas."
+  },
+  {
+   "q": "Amyloid is demonstrated by:",
+   "o": [
+    "PAS stain",
+    "Congo red",
+    "Perl's stain",
+    "Silver stain"
+   ],
+   "a": 1,
+   "e": "Apple-green birefringence under polarised light."
+  },
+  {
+   "q": "p53 is a:",
+   "o": [
+    "Oncogene",
+    "Tumour suppressor gene",
+    "Housekeeping gene",
+    "Mitochondrial gene"
+   ],
+   "a": 1,
+   "e": "The guardian of the genome."
+  },
+  {
+   "q": "Anaphylaxis is which type of hypersensitivity?",
+   "o": [
+    "Type I",
+    "Type II",
+    "Type III",
+    "Type IV"
+   ],
+   "a": 0,
+   "e": "IgE mediated and immediate."
+  },
+  {
+   "q": "An antibody highly specific for SLE:",
+   "o": [
+    "ANA",
+    "Anti-dsDNA",
+    "Rheumatoid factor",
+    "Anti-centromere"
+   ],
+   "a": 1,
+   "e": "Anti-Sm is also specific."
+  },
+  {
+   "q": "Oedema with low serum albumin is characteristic of:",
+   "o": [
+    "Nephrotic syndrome",
+    "Acute nephritis",
+    "Hypertension",
+    "Anaemia"
+   ],
+   "a": 0,
+   "e": "Lost albumin lowers oncotic pressure."
+  },
+  {
+   "q": "A feature of benign tumours:",
+   "o": [
+    "Metastasis",
+    "Well differentiated with a capsule",
+    "Rapid growth",
+    "Necrosis"
+   ],
+   "a": 1,
+   "e": "They remain localised."
+  },
+  {
+   "q": "Koilocytes are a feature of infection with:",
+   "o": [
+    "Herpes simplex",
+    "HPV",
+    "Epstein-Barr virus",
+    "CMV"
+   ],
+   "a": 1,
+   "e": "Seen on Pap smears."
+  },
+  {
+   "q": "Red hepatization is a stage of:",
+   "o": [
+    "Lobar pneumonia",
+    "Bronchopneumonia",
+    "Tuberculosis",
+    "Bronchiectasis"
+   ],
+   "a": 0,
+   "e": "Followed by grey hepatization."
+  },
+  {
+   "q": "Nephrotic syndrome shows proteinuria above:",
+   "o": [
+    "0.5 g/day",
+    "1 g/day",
+    "3.5 g/day",
+    "10 g/day"
+   ],
+   "a": 2,
+   "e": "Along with hypoalbuminaemia and oedema."
+  },
+  {
+   "q": "Aschoff bodies are found in:",
+   "o": [
+    "Rheumatic fever",
+    "Infective endocarditis",
+    "Myocarditis due to virus",
+    "Syphilis"
+   ],
+   "a": 0,
+   "e": "Rheumatic heart disease."
+  },
+  {
+   "q": "Virchow's triad includes:",
+   "o": [
+    "Stasis, endothelial injury, hypercoagulability",
+    "Fever, pain, swelling",
+    "Anaemia, jaundice, oedema",
+    "Hypoxia, acidosis, necrosis"
+   ],
+   "a": 0,
+   "e": "The three factors favouring thrombosis."
+  }
+ ],
+ "microbiology": [
+  {
+   "q": "The decolouriser in Gram staining is:",
+   "o": [
+    "Crystal violet",
+    "Gram's iodine",
+    "Alcohol or acetone",
+    "Safranin"
+   ],
+   "a": 2,
+   "e": "It removes the stain from Gram-negative cells."
+  },
+  {
+   "q": "Syphilis is caused by:",
+   "o": [
+    "Treponema pallidum",
+    "Borrelia",
+    "Leptospira",
+    "Neisseria gonorrhoeae"
+   ],
+   "a": 0,
+   "e": "A spirochaete."
+  },
+  {
+   "q": "Widal test is used for:",
+   "o": [
+    "Cholera",
+    "Typhoid",
+    "Tuberculosis",
+    "Dengue"
+   ],
+   "a": 1,
+   "e": "It detects O and H agglutinins."
+  },
+  {
+   "q": "Gas gangrene is caused mainly by:",
+   "o": [
+    "Clostridium tetani",
+    "Clostridium perfringens",
+    "Clostridium difficile",
+    "Clostridium botulinum"
+   ],
+   "a": 1,
+   "e": "It produces alpha toxin (lecithinase)."
+  },
+  {
+   "q": "An obligate intracellular bacterium:",
+   "o": [
+    "E. coli",
+    "Staphylococcus aureus",
+    "Chlamydia",
+    "Vibrio cholerae"
+   ],
+   "a": 2,
+   "e": "Chlamydia cannot grow outside host cells."
+  },
+  {
+   "q": "The main function of bacterial flagella is:",
+   "o": [
+    "Motility",
+    "Conjugation",
+    "Spore formation",
+    "Capsule synthesis"
+   ],
+   "a": 0,
+   "e": "Pili are involved in conjugation."
+  },
+  {
+   "q": "Chickenpox is caused by:",
+   "o": [
+    "Herpes simplex virus",
+    "Varicella-zoster virus",
+    "Epstein-Barr virus",
+    "Cytomegalovirus"
+   ],
+   "a": 1,
+   "e": "Reactivation causes shingles."
+  },
+  {
+   "q": "BCG vaccine protects against:",
+   "o": [
+    "Typhoid",
+    "Tuberculosis",
+    "Polio",
+    "Diphtheria"
+   ],
+   "a": 1,
+   "e": "Bacille Calmette-Guerin."
+  },
+  {
+   "q": "Which is a DNA virus?",
+   "o": [
+    "Poliovirus",
+    "HIV",
+    "Hepatitis B virus",
+    "Influenza virus"
+   ],
+   "a": 2,
+   "e": "HBV has a partly double-stranded DNA genome."
+  },
+  {
+   "q": "Anopheles mosquitoes transmit:",
+   "o": [
+    "Malaria",
+    "Dengue",
+    "Kala-azar",
+    "Chikungunya"
+   ],
+   "a": 0,
+   "e": "Plasmodium species."
+  },
+  {
+   "q": "Immunoglobulin found in secretions such as milk and saliva:",
+   "o": [
+    "IgG",
+    "IgM",
+    "IgA",
+    "IgD"
+   ],
+   "a": 2,
+   "e": "Secretory IgA."
+  },
+  {
+   "q": "ELISA can detect:",
+   "o": [
+    "Only antigens",
+    "Only antibodies",
+    "Antigens or antibodies",
+    "Only DNA"
+   ],
+   "a": 2,
+   "e": "Depending on the assay design."
+  },
+  {
+   "q": "Most common cause of urinary tract infection:",
+   "o": [
+    "Proteus",
+    "Escherichia coli",
+    "Klebsiella",
+    "Staphylococcus aureus"
+   ],
+   "a": 1,
+   "e": "Uropathogenic E. coli."
+  },
+  {
+   "q": "Koplik spots are seen in:",
+   "o": [
+    "Rubella",
+    "Measles",
+    "Mumps",
+    "Chickenpox"
+   ],
+   "a": 1,
+   "e": "Seen on the buccal mucosa."
+  },
+  {
+   "q": "Rice-water stools are typical of:",
+   "o": [
+    "Shigellosis",
+    "Cholera",
+    "Typhoid",
+    "Amoebiasis"
+   ],
+   "a": 1,
+   "e": "Caused by cholera toxin."
+  },
+  {
+   "q": "Hepatitis viruses spread by the faecal-oral route:",
+   "o": [
+    "A and E",
+    "B and C",
+    "B and D",
+    "C and D"
+   ],
+   "a": 0,
+   "e": "Both are usually self-limiting."
+  },
+  {
+   "q": "Leprosy is caused by:",
+   "o": [
+    "Mycobacterium tuberculosis",
+    "Mycobacterium leprae",
+    "Mycobacterium avium",
+    "Nocardia"
+   ],
+   "a": 1,
+   "e": "Acid-fast bacillus that cannot be cultured on artificial media."
+  },
+  {
+   "q": "Staphylococcus aureus is characterised by:",
+   "o": [
+    "Coagulase negative",
+    "Oxidase positive",
+    "Coagulase positive",
+    "Bile solubility"
+   ],
+   "a": 2,
+   "e": "The coagulase test separates it from other staphylococci."
+  },
+  {
+   "q": "BCG is a:",
+   "o": [
+    "Killed vaccine",
+    "Toxoid",
+    "Live attenuated vaccine",
+    "Subunit vaccine"
+   ],
+   "a": 2,
+   "e": "Derived from Mycobacterium bovis."
+  },
+  {
+   "q": "Aedes aegypti bites mainly:",
+   "o": [
+    "At night",
+    "During the daytime",
+    "Only in winter",
+    "Only underground"
+   ],
+   "a": 1,
+   "e": "Peak biting is early morning and late afternoon."
+  }
+ ],
+ "fmt": [
+  {
+   "q": "Antidote for organophosphate poisoning:",
+   "o": [
+    "Naloxone",
+    "Atropine",
+    "N-acetylcysteine",
+    "Flumazenil"
+   ],
+   "a": 1,
+   "e": "Atropine counters muscarinic effects."
+  },
+  {
+   "q": "Cherry-red post-mortem lividity is seen in:",
+   "o": [
+    "Carbon monoxide poisoning",
+    "Arsenic poisoning",
+    "Phosphorus poisoning",
+    "Methanol poisoning"
+   ],
+   "a": 0,
+   "e": "Carboxyhaemoglobin is bright red."
+  },
+  {
+   "q": "Cadaveric spasm is also called:",
+   "o": [
+    "Heat stiffening",
+    "Instantaneous rigor",
+    "Gas stiffening",
+    "Cold stiffening"
+   ],
+   "a": 1,
+   "e": "It occurs at the moment of death."
+  },
+  {
+   "q": "Ligature mark in hanging is typically:",
+   "o": [
+    "Horizontal and complete",
+    "Oblique and non-continuous",
+    "Absent",
+    "Always below the larynx"
+   ],
+   "a": 1,
+   "e": "It rises toward the knot."
+  },
+  {
+   "q": "Antidote for methanol poisoning:",
+   "o": [
+    "Atropine",
+    "Ethanol or fomepizole",
+    "Naloxone",
+    "Calcium gluconate"
+   ],
+   "a": 1,
+   "e": "They block alcohol dehydrogenase."
+  },
+  {
+   "q": "Dhatura poisoning typically causes:",
+   "o": [
+    "Pinpoint pupils",
+    "Dilated pupils with dry skin",
+    "Excess salivation",
+    "Bradycardia only"
+   ],
+   "a": 1,
+   "e": "Anticholinergic features."
+  },
+  {
+   "q": "Mees' lines in the nails indicate:",
+   "o": [
+    "Lead",
+    "Mercury",
+    "Arsenic",
+    "Copper"
+   ],
+   "a": 2,
+   "e": "Chronic arsenic poisoning."
+  },
+  {
+   "q": "Burton's line on the gums is seen in:",
+   "o": [
+    "Arsenic poisoning",
+    "Lead poisoning",
+    "Copper poisoning",
+    "Mercury poisoning"
+   ],
+   "a": 1,
+   "e": "A blue line from lead sulphide."
+  },
+  {
+   "q": "Tardieu spots are seen in:",
+   "o": [
+    "Asphyxial deaths",
+    "Burns",
+    "Starvation",
+    "Alkali poisoning"
+   ],
+   "a": 0,
+   "e": "Petechial haemorrhages."
+  },
+  {
+   "q": "Risus sardonicus is characteristic of poisoning with:",
+   "o": [
+    "Strychnine",
+    "Atropine",
+    "Morphine",
+    "Barbiturates"
+   ],
+   "a": 0,
+   "e": "It is also seen in tetanus."
+  },
+  {
+   "q": "Most common fingerprint pattern:",
+   "o": [
+    "Whorl",
+    "Loop",
+    "Arch",
+    "Composite"
+   ],
+   "a": 1,
+   "e": "Loops are about 60 to 65 percent."
+  },
+  {
+   "q": "Contusion is also called a:",
+   "o": [
+    "Bruise",
+    "Graze",
+    "Tear",
+    "Puncture"
+   ],
+   "a": 0,
+   "e": "Bleeding under intact skin."
+  },
+  {
+   "q": "The opium poisoning triad is:",
+   "o": [
+    "Pinpoint pupils, coma, respiratory depression",
+    "Dilated pupils, fever, delirium",
+    "Sweating, tremor, tachycardia",
+    "Dry skin, flushing, mydriasis"
+   ],
+   "a": 0,
+   "e": "Treat with naloxone."
+  },
+  {
+   "q": "Age of majority in India:",
+   "o": [
+    "16 years",
+    "18 years",
+    "21 years",
+    "25 years"
+   ],
+   "a": 1,
+   "e": "As per the Indian Majority Act."
+  },
+  {
+   "q": "Mens rea means:",
+   "o": [
+    "Guilty act",
+    "Guilty mind",
+    "Guilty witness",
+    "Court order"
+   ],
+   "a": 1,
+   "e": "The mental element of a crime."
+  },
+  {
+   "q": "Which is a corrosive poison?",
+   "o": [
+    "Sulphuric acid",
+    "Strychnine",
+    "Digoxin",
+    "Morphine"
+   ],
+   "a": 0,
+   "e": "It causes severe local tissue destruction."
+  },
+  {
+   "q": "Organophosphates act by:",
+   "o": [
+    "Inhibiting acetylcholinesterase",
+    "Blocking sodium channels",
+    "Inhibiting MAO",
+    "Activating GABA receptors"
+   ],
+   "a": 0,
+   "e": "Acetylcholine accumulates."
+  },
+  {
+   "q": "Time since death is estimated from:",
+   "o": [
+    "Skin colour only",
+    "Body temperature, rigor, lividity and decomposition",
+    "Hair length",
+    "Blood group"
+   ],
+   "a": 1,
+   "e": "No single sign is exact."
+  },
+  {
+   "q": "A lucid interval is classic in:",
+   "o": [
+    "Extradural haemorrhage",
+    "Subarachnoid haemorrhage",
+    "Concussion only",
+    "Chronic subdural haematoma"
+   ],
+   "a": 0,
+   "e": "Middle meningeal artery tear."
+  },
+  {
+   "q": "Antidote for opioid poisoning:",
+   "o": [
+    "Naloxone",
+    "Atropine",
+    "Pralidoxime",
+    "Vitamin K"
+   ],
+   "a": 0,
+   "e": "A competitive opioid antagonist."
+  }
+ ]
+}

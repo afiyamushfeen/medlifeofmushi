@@ -1,0 +1,716 @@
+{
+ "anatomy": [
+  {
+   "q": "Describe the brachial plexus: formation, branches and applied anatomy.",
+   "m": "Long answer",
+   "h": "Roots, trunks, divisions, cords; terminal branches; Erb and Klumpke palsy"
+  },
+  {
+   "q": "Describe the circle of Willis.",
+   "m": "Short note",
+   "h": "Formation, arteries, communicating arteries, clinical importance (berry aneurysm)"
+  },
+  {
+   "q": "Describe the gross anatomy of the heart.",
+   "m": "Long answer",
+   "h": "Chambers, valves, coronary arteries, nerve supply"
+  },
+  {
+   "q": "Cubital fossa: boundaries and contents.",
+   "m": "Short note",
+   "h": "Boundaries, floor, roof, contents from medial to lateral"
+  },
+  {
+   "q": "Carpal tunnel and carpal tunnel syndrome.",
+   "m": "Short note",
+   "h": "Boundaries, contents, median nerve compression, features"
+  },
+  {
+   "q": "Rotator cuff muscles with nerve supply and actions.",
+   "m": "Short note",
+   "h": "SITS, nerves, role in shoulder stability"
+  },
+  {
+   "q": "Femoral triangle: boundaries and contents.",
+   "m": "Short note",
+   "h": "Inguinal ligament, sartorius, adductor longus; NAVEL contents"
+  },
+  {
+   "q": "Inguinal canal: walls, openings and contents.",
+   "m": "Long answer",
+   "h": "Superficial and deep rings, walls, spermatic cord or round ligament"
+  },
+  {
+   "q": "Name the cranial nerves with their functions.",
+   "m": "Long answer",
+   "h": "12 pairs, type (sensory, motor, mixed), main functions"
+  },
+  {
+   "q": "Knee joint: type, ligaments, movements and applied anatomy.",
+   "m": "Long answer",
+   "h": "Synovial hinge, cruciate and collateral ligaments, menisci"
+  },
+  {
+   "q": "Diaphragm: origin, openings, nerve supply and actions.",
+   "m": "Short note",
+   "h": "T8, T10, T12 openings, phrenic nerve"
+  },
+  {
+   "q": "Stomach: parts, relations and blood supply.",
+   "m": "Long answer",
+   "h": "Fundus, body, antrum, pylorus; coronary, gastroepiploic, short gastrics"
+  },
+  {
+   "q": "Liver: lobes, surfaces, relations and blood supply.",
+   "m": "Long answer",
+   "h": "Right, left, caudate, quadrate lobes; hepatic artery and portal vein"
+  },
+  {
+   "q": "Spinal cord: gross features and main tracts.",
+   "m": "Long answer",
+   "h": "Enlargements, conus medullaris, ascending and descending tracts"
+  },
+  {
+   "q": "Thyroid gland: gross anatomy, relations and blood supply.",
+   "m": "Short note",
+   "h": "Lobes, isthmus, superior and inferior thyroid arteries, nerves at risk"
+  },
+  {
+   "q": "Anatomical position and anatomical planes.",
+   "m": "Very short",
+   "h": "Standing erect, palms forward; sagittal, coronal, transverse planes"
+  },
+  {
+   "q": "Typical vertebra and how cervical, thoracic and lumbar vertebrae differ.",
+   "m": "Short note",
+   "h": "Body, arch, processes; regional features"
+  },
+  {
+   "q": "Axilla: boundaries and contents.",
+   "m": "Short note",
+   "h": "Apex, base, four walls, axillary artery and vein, brachial plexus, nodes"
+  },
+  {
+   "q": "Popliteal fossa: boundaries and contents.",
+   "m": "Short note",
+   "h": "Diamond shape, popliteal vessels, tibial and common peroneal nerves"
+  },
+  {
+   "q": "Hip joint: type, ligaments, blood supply and movements.",
+   "m": "Long answer",
+   "h": "Ball and socket, iliofemoral ligament, retinacular vessels, femoral neck fracture"
+  }
+ ],
+ "physiology": [
+  {
+   "q": "Describe the cardiac cycle with the pressure and volume changes.",
+   "m": "Long answer",
+   "h": "Atrial systole, isovolumetric contraction, ejection, relaxation, filling; heart sounds"
+  },
+  {
+   "q": "Describe the mechanism of blood coagulation.",
+   "m": "Long answer",
+   "h": "Intrinsic, extrinsic, common pathways; fibrin; anticoagulants"
+  },
+  {
+   "q": "Describe the formation of urine.",
+   "m": "Long answer",
+   "h": "Filtration, reabsorption, secretion; GFR; counter-current mechanism"
+  },
+  {
+   "q": "Regulation of arterial blood pressure.",
+   "m": "Long answer",
+   "h": "Baroreceptors, renin-angiotensin, ADH, local factors"
+  },
+  {
+   "q": "Erythropoiesis: stages and regulation.",
+   "m": "Short note",
+   "h": "Stem cell to RBC, erythropoietin, vitamin B12, folate, iron"
+  },
+  {
+   "q": "Functions of plasma proteins.",
+   "m": "Short note",
+   "h": "Albumin, globulins, fibrinogen; oncotic pressure, transport, immunity"
+  },
+  {
+   "q": "ABO and Rh blood groups; Rh incompatibility.",
+   "m": "Short note",
+   "h": "Antigens, antibodies, erythroblastosis fetalis, prevention"
+  },
+  {
+   "q": "Digestive functions of pancreatic juice.",
+   "m": "Short note",
+   "h": "Amylase, lipase, proteases, bicarbonate; secretin and CCK"
+  },
+  {
+   "q": "Neuromuscular transmission.",
+   "m": "Short note",
+   "h": "Acetylcholine release, end plate potential, myasthenia gravis"
+  },
+  {
+   "q": "Mechanism of skeletal muscle contraction.",
+   "m": "Long answer",
+   "h": "Sliding filament, excitation-contraction coupling, ATP"
+  },
+  {
+   "q": "Action potential: phases and ionic basis.",
+   "m": "Short note",
+   "h": "Resting, depolarisation, repolarisation, hyperpolarisation"
+  },
+  {
+   "q": "Thyroid hormones: synthesis and functions.",
+   "m": "Long answer",
+   "h": "Iodide trapping, T3 and T4, actions, hypo and hyperthyroidism"
+  },
+  {
+   "q": "Insulin: actions and regulation of secretion.",
+   "m": "Short note",
+   "h": "Effects on carbohydrate, fat, protein; glucose as stimulus"
+  },
+  {
+   "q": "Hormonal control of the menstrual cycle.",
+   "m": "Long answer",
+   "h": "FSH, LH, oestrogen, progesterone; ovarian and uterine phases"
+  },
+  {
+   "q": "Transport of oxygen and the oxygen dissociation curve.",
+   "m": "Long answer",
+   "h": "Haemoglobin, sigmoid curve, Bohr effect, shifts"
+  },
+  {
+   "q": "Surfactant: source and functions.",
+   "m": "Very short",
+   "h": "Type II pneumocytes, DPPC, reduces surface tension, respiratory distress syndrome"
+  },
+  {
+   "q": "Gastric juice: composition and regulation of secretion.",
+   "m": "Long answer",
+   "h": "HCl, pepsinogen, intrinsic factor; cephalic, gastric, intestinal phases"
+  },
+  {
+   "q": "Functions of lymph and the lymphatic system.",
+   "m": "Short note",
+   "h": "Fluid return, fat absorption, immunity"
+  },
+  {
+   "q": "Cerebrospinal fluid: formation, circulation and functions.",
+   "m": "Short note",
+   "h": "Choroid plexus, ventricles, arachnoid villi, protection"
+  },
+  {
+   "q": "Reflex arc and properties of reflexes.",
+   "m": "Short note",
+   "h": "Receptor, afferent, centre, efferent, effector; knee jerk"
+  }
+ ],
+ "biochemistry": [
+  {
+   "q": "Glycolysis: steps, energetics and regulation.",
+   "m": "Long answer",
+   "h": "10 steps, 2 ATP net, PFK-1, hexokinase, pyruvate kinase"
+  },
+  {
+   "q": "TCA cycle: reactions and significance.",
+   "m": "Long answer",
+   "h": "Citrate to oxaloacetate, NADH, FADH2, GTP, amphibolic role"
+  },
+  {
+   "q": "Beta-oxidation of fatty acids with energetics.",
+   "m": "Long answer",
+   "h": "Activation, carnitine shuttle, four steps, palmitate ATP yield"
+  },
+  {
+   "q": "Urea cycle and its disorders.",
+   "m": "Long answer",
+   "h": "Five steps, ornithine, ammonia detoxification, hyperammonaemia"
+  },
+  {
+   "q": "Gluconeogenesis: substrates and key enzymes.",
+   "m": "Short note",
+   "h": "Pyruvate carboxylase, PEPCK, F-1,6-bisphosphatase, G-6-phosphatase"
+  },
+  {
+   "q": "Classification of enzymes with examples.",
+   "m": "Short note",
+   "h": "Six classes: oxidoreductases to ligases"
+  },
+  {
+   "q": "Enzyme inhibition: types and examples.",
+   "m": "Short note",
+   "h": "Competitive, non-competitive, uncompetitive; Km and Vmax changes"
+  },
+  {
+   "q": "Lipoproteins: classification and functions.",
+   "m": "Short note",
+   "h": "Chylomicrons, VLDL, LDL, HDL; composition and roles"
+  },
+  {
+   "q": "Cholesterol: synthesis and its regulation.",
+   "m": "Long answer",
+   "h": "HMG-CoA reductase, mevalonate, statins, bile acids"
+  },
+  {
+   "q": "Vitamin D: sources, activation and functions.",
+   "m": "Short note",
+   "h": "7-dehydrocholesterol, calcitriol, calcium absorption, rickets"
+  },
+  {
+   "q": "Vitamin B12 and folic acid: functions and deficiency.",
+   "m": "Short note",
+   "h": "Megaloblastic anaemia, homocysteine, neuropathy with B12"
+  },
+  {
+   "q": "Ketone bodies: formation, utilisation and ketosis.",
+   "m": "Short note",
+   "h": "HMG-CoA pathway, liver, diabetic ketoacidosis"
+  },
+  {
+   "q": "Glycogen metabolism and glycogen storage diseases.",
+   "m": "Long answer",
+   "h": "Glycogenesis, glycogenolysis, enzyme defects, von Gierke, McArdle"
+  },
+  {
+   "q": "DNA replication.",
+   "m": "Short note",
+   "h": "Semi-conservative, helicase, primase, polymerase, ligase"
+  },
+  {
+   "q": "Protein synthesis (translation).",
+   "m": "Long answer",
+   "h": "Initiation, elongation, termination; mRNA, tRNA, ribosome"
+  },
+  {
+   "q": "Electron transport chain and oxidative phosphorylation.",
+   "m": "Long answer",
+   "h": "Complexes I to IV, ATP synthase, inhibitors"
+  },
+  {
+   "q": "Biochemical changes in diabetes mellitus.",
+   "m": "Short note",
+   "h": "Hyperglycaemia, ketosis, glycosuria, lipid changes"
+  },
+  {
+   "q": "Purine metabolism and gout.",
+   "m": "Short note",
+   "h": "Uric acid, xanthine oxidase, causes, allopurinol"
+  },
+  {
+   "q": "Liver function tests.",
+   "m": "Short note",
+   "h": "Bilirubin, ALT, AST, ALP, albumin, prothrombin time"
+  },
+  {
+   "q": "Acid-base balance and buffer systems.",
+   "m": "Short note",
+   "h": "Bicarbonate, protein and phosphate buffers, renal and respiratory control"
+  }
+ ],
+ "psychology": [
+  {
+   "q": "Define psychology and describe its scope in medicine.",
+   "m": "Short note",
+   "h": "Definition, branches, importance for doctor and patient"
+  },
+  {
+   "q": "Freud's theory of personality.",
+   "m": "Long answer",
+   "h": "Id, ego, superego; levels of mind; psychosexual stages"
+  },
+  {
+   "q": "Defence mechanisms with examples.",
+   "m": "Short note",
+   "h": "Repression, denial, projection, rationalisation, regression"
+  },
+  {
+   "q": "Piaget's theory of cognitive development.",
+   "m": "Long answer",
+   "h": "Four stages, schemas, assimilation and accommodation"
+  },
+  {
+   "q": "Classical conditioning and its applications.",
+   "m": "Short note",
+   "h": "Pavlov's experiment, UCS, CS, extinction, phobias"
+  },
+  {
+   "q": "Operant conditioning and reinforcement.",
+   "m": "Short note",
+   "h": "Skinner box, reinforcement types, schedules, punishment"
+  },
+  {
+   "q": "Memory: types, processes and causes of forgetting.",
+   "m": "Long answer",
+   "h": "Encoding, storage, retrieval; sensory, short-term, long-term"
+  },
+  {
+   "q": "Intelligence: definition and intelligence tests.",
+   "m": "Long answer",
+   "h": "IQ, Binet, Wechsler, classification of IQ"
+  },
+  {
+   "q": "Maslow's hierarchy of needs.",
+   "m": "Short note",
+   "h": "Five levels from physiological to self-actualisation"
+  },
+  {
+   "q": "Stress and coping mechanisms.",
+   "m": "Short note",
+   "h": "Stressors, GAS, effects on health, coping styles"
+  },
+  {
+   "q": "Theories of emotion.",
+   "m": "Short note",
+   "h": "James-Lange, Cannon-Bard, Schachter-Singer"
+  },
+  {
+   "q": "Personality: definition, determinants and theories.",
+   "m": "Long answer",
+   "h": "Heredity, environment, trait and type theories"
+  },
+  {
+   "q": "Motivation: types and theories.",
+   "m": "Short note",
+   "h": "Intrinsic, extrinsic, drive and incentive theories"
+  },
+  {
+   "q": "Learning: definition and types.",
+   "m": "Short note",
+   "h": "Conditioning, observational, insight learning"
+  },
+  {
+   "q": "Perception: definition and factors affecting it.",
+   "m": "Short note",
+   "h": "Selection, organisation, illusions, Gestalt laws"
+  },
+  {
+   "q": "Attention: types and determinants.",
+   "m": "Very short",
+   "h": "Selective, sustained, divided; internal and external factors"
+  },
+  {
+   "q": "Thinking and problem solving.",
+   "m": "Short note",
+   "h": "Concepts, reasoning, insight, trial and error"
+  },
+  {
+   "q": "Erikson's stages of psychosocial development.",
+   "m": "Long answer",
+   "h": "Eight stages with crisis at each stage"
+  },
+  {
+   "q": "Projective techniques of personality assessment.",
+   "m": "Short note",
+   "h": "Rorschach, TAT, word association"
+  },
+  {
+   "q": "Role of psychology in the doctor-patient relationship.",
+   "m": "Short note",
+   "h": "Communication, empathy, compliance, case taking"
+  }
+ ],
+ "pathology": [
+  {
+   "q": "Define necrosis and describe its types with examples.",
+   "m": "Long answer",
+   "h": "Coagulative, liquefactive, caseous, fat, fibrinoid, gangrene"
+  },
+  {
+   "q": "Acute inflammation: vascular and cellular events.",
+   "m": "Long answer",
+   "h": "Vasodilation, permeability, margination, chemotaxis, phagocytosis"
+  },
+  {
+   "q": "Chronic inflammation and granuloma.",
+   "m": "Short note",
+   "h": "Cells, causes, tubercular granuloma, foreign body"
+  },
+  {
+   "q": "Wound healing by primary and secondary intention.",
+   "m": "Long answer",
+   "h": "Phases, granulation tissue, factors affecting healing"
+  },
+  {
+   "q": "Thrombosis: Virchow's triad, types and fate.",
+   "m": "Long answer",
+   "h": "Pathogenesis, morphology, propagation, organisation, embolism"
+  },
+  {
+   "q": "Oedema: pathogenesis and types.",
+   "m": "Short note",
+   "h": "Starling forces, hypoalbuminaemia, lymphatic obstruction"
+  },
+  {
+   "q": "Shock: types and stages.",
+   "m": "Short note",
+   "h": "Hypovolaemic, cardiogenic, septic; compensated and decompensated"
+  },
+  {
+   "q": "Differences between benign and malignant tumours.",
+   "m": "Short note",
+   "h": "Growth, differentiation, metastasis, recurrence"
+  },
+  {
+   "q": "Carcinogenesis: chemical, viral and radiation.",
+   "m": "Long answer",
+   "h": "Initiation, promotion, oncogenes, tumour suppressor genes"
+  },
+  {
+   "q": "Tumour markers with examples.",
+   "m": "Short note",
+   "h": "AFP, CEA, PSA, CA-125, beta-hCG"
+  },
+  {
+   "q": "Classification of anaemia and iron deficiency anaemia.",
+   "m": "Long answer",
+   "h": "Morphological and aetiological classes; blood picture; causes"
+  },
+  {
+   "q": "Megaloblastic anaemia.",
+   "m": "Short note",
+   "h": "Causes, peripheral smear, bone marrow, B12 and folate"
+  },
+  {
+   "q": "Classification of leukaemias.",
+   "m": "Short note",
+   "h": "Acute and chronic, myeloid and lymphoid"
+  },
+  {
+   "q": "Amyloidosis: types and diagnosis.",
+   "m": "Short note",
+   "h": "AL, AA; Congo red; organs involved"
+  },
+  {
+   "q": "Hypersensitivity reactions with examples.",
+   "m": "Long answer",
+   "h": "Types I to IV, mechanisms, diseases"
+  },
+  {
+   "q": "Pathology of tuberculosis.",
+   "m": "Long answer",
+   "h": "Primary complex, secondary TB, granuloma, spread"
+  },
+  {
+   "q": "Rheumatic heart disease.",
+   "m": "Short note",
+   "h": "Aschoff body, valve lesions, Jones criteria"
+  },
+  {
+   "q": "Cirrhosis of the liver: causes and morphology.",
+   "m": "Short note",
+   "h": "Nodules, fibrosis, portal hypertension"
+  },
+  {
+   "q": "Nephrotic and nephritic syndromes.",
+   "m": "Short note",
+   "h": "Features, causes, differences"
+  },
+  {
+   "q": "Atherosclerosis: pathogenesis and complications.",
+   "m": "Long answer",
+   "h": "Endothelial injury, lipid, foam cells, plaque, MI"
+  }
+ ],
+ "microbiology": [
+  {
+   "q": "Gram staining: principle, procedure and uses.",
+   "m": "Short note",
+   "h": "Crystal violet, iodine, decolouriser, safranin; cell wall difference"
+  },
+  {
+   "q": "Classification of bacteria.",
+   "m": "Short note",
+   "h": "Shape, Gram reaction, oxygen need, growth"
+  },
+  {
+   "q": "Sterilisation: physical methods.",
+   "m": "Long answer",
+   "h": "Heat, filtration, radiation; autoclave, hot air oven"
+  },
+  {
+   "q": "Culture media: types with examples.",
+   "m": "Short note",
+   "h": "Basal, enriched, selective, indicator, transport"
+  },
+  {
+   "q": "Innate and acquired immunity.",
+   "m": "Long answer",
+   "h": "Barriers, phagocytes, complement; humoral and cell-mediated"
+  },
+  {
+   "q": "Antigen-antibody reactions and their uses.",
+   "m": "Short note",
+   "h": "Precipitation, agglutination, ELISA, complement fixation"
+  },
+  {
+   "q": "Immunoglobulins: classes and functions.",
+   "m": "Long answer",
+   "h": "IgG, IgM, IgA, IgE, IgD structure and roles"
+  },
+  {
+   "q": "Staphylococcus aureus: morphology, diseases and lab diagnosis.",
+   "m": "Long answer",
+   "h": "Gram-positive cocci in clusters, coagulase, toxins, MRSA"
+  },
+  {
+   "q": "Streptococcus pyogenes: diseases and lab diagnosis.",
+   "m": "Short note",
+   "h": "Beta haemolysis, ASO titre, rheumatic fever, glomerulonephritis"
+  },
+  {
+   "q": "Laboratory diagnosis of tuberculosis.",
+   "m": "Long answer",
+   "h": "ZN smear, LJ culture, CBNAAT, Mantoux test"
+  },
+  {
+   "q": "Salmonella Typhi: lab diagnosis of enteric fever.",
+   "m": "Long answer",
+   "h": "Blood culture, Widal, stool and urine culture, carriers"
+  },
+  {
+   "q": "Vibrio cholerae: morphology, pathogenesis and lab diagnosis.",
+   "m": "Short note",
+   "h": "Comma shape, cholera toxin, TCBS, ORS treatment"
+  },
+  {
+   "q": "Clostridium tetani: pathogenesis and prophylaxis.",
+   "m": "Short note",
+   "h": "Spores, tetanospasmin, toxoid, immunoglobulin"
+  },
+  {
+   "q": "Corynebacterium diphtheriae: pathogenesis and lab diagnosis.",
+   "m": "Short note",
+   "h": "Exotoxin, Albert stain, Schick test, DPT vaccine"
+  },
+  {
+   "q": "HIV: structure, transmission and laboratory diagnosis.",
+   "m": "Long answer",
+   "h": "RNA retrovirus, CD4 loss, ELISA, Western blot, window period"
+  },
+  {
+   "q": "Hepatitis B virus: structure and serological markers.",
+   "m": "Short note",
+   "h": "HBsAg, HBeAg, anti-HBc, anti-HBs, vaccine"
+  },
+  {
+   "q": "Malaria parasite: life cycle and diagnosis.",
+   "m": "Long answer",
+   "h": "Sporogony in mosquito, schizogony in man, blood smear, RDT"
+  },
+  {
+   "q": "Entamoeba histolytica: life cycle and amoebiasis.",
+   "m": "Short note",
+   "h": "Cyst and trophozoite, flask-shaped ulcers, diagnosis"
+  },
+  {
+   "q": "Rabies virus: pathogenesis and post-exposure prophylaxis.",
+   "m": "Short note",
+   "h": "Neural spread, Negri bodies, vaccine, immunoglobulin"
+  },
+  {
+   "q": "Vaccines: types and the national immunisation schedule.",
+   "m": "Long answer",
+   "h": "Live, killed, toxoid; BCG, OPV, DPT, measles schedule"
+  }
+ ],
+ "fmt": [
+  {
+   "q": "Define poison and classify poisons.",
+   "m": "Short note",
+   "h": "Definition, classification by source and action"
+  },
+  {
+   "q": "General principles of treatment of poisoning.",
+   "m": "Long answer",
+   "h": "Resuscitation, decontamination, antidotes, elimination"
+  },
+  {
+   "q": "Organophosphate poisoning: features and treatment.",
+   "m": "Long answer",
+   "h": "Muscarinic, nicotinic, CNS features; atropine, pralidoxime"
+  },
+  {
+   "q": "Snake bite: types, features and treatment.",
+   "m": "Long answer",
+   "h": "Neurotoxic and vasculotoxic; ASV; first aid"
+  },
+  {
+   "q": "Arsenic poisoning: acute and chronic.",
+   "m": "Short note",
+   "h": "Features, Mees' lines, BAL, post-mortem findings"
+  },
+  {
+   "q": "Opium and opioid poisoning.",
+   "m": "Short note",
+   "h": "Triad, treatment with naloxone"
+  },
+  {
+   "q": "Methyl and ethyl alcohol poisoning.",
+   "m": "Short note",
+   "h": "Features, optic neuropathy, antidotes"
+  },
+  {
+   "q": "Corrosive poisoning: sulphuric acid.",
+   "m": "Short note",
+   "h": "Features, complications, treatment, PM findings"
+  },
+  {
+   "q": "Post-mortem changes: algor, livor and rigor mortis.",
+   "m": "Long answer",
+   "h": "Onset, duration, medicolegal importance"
+  },
+  {
+   "q": "Putrefaction: signs and factors affecting it.",
+   "m": "Short note",
+   "h": "Greenish discolouration, marbling, adipocere, mummification"
+  },
+  {
+   "q": "Medical negligence: civil and criminal.",
+   "m": "Long answer",
+   "h": "Four Ds, res ipsa loquitur, defences, liability"
+  },
+  {
+   "q": "Duties and consent of a registered medical practitioner.",
+   "m": "Short note",
+   "h": "Informed consent, confidentiality, professional secrecy"
+  },
+  {
+   "q": "Inquest: types and importance.",
+   "m": "Short note",
+   "h": "Police and magistrate inquest, purpose"
+  },
+  {
+   "q": "Mechanical injuries: abrasion, contusion and laceration.",
+   "m": "Long answer",
+   "h": "Definitions, types, medicolegal importance, age of injuries"
+  },
+  {
+   "q": "Differences between hanging and strangulation.",
+   "m": "Short note",
+   "h": "Ligature mark, face, neck structures, manner of death"
+  },
+  {
+   "q": "Identification: methods and importance.",
+   "m": "Short note",
+   "h": "Fingerprints, dentition, scars, DNA"
+  },
+  {
+   "q": "Autopsy: types and procedure.",
+   "m": "Short note",
+   "h": "Medicolegal and clinical; external and internal examination"
+  },
+  {
+   "q": "Dying declaration: requirements and admissibility.",
+   "m": "Short note",
+   "h": "Who records it, competence, evidentiary value"
+  },
+  {
+   "q": "Incised and stab wounds: features and differences.",
+   "m": "Short note",
+   "h": "Edges, depth, direction, weapon identification"
+  },
+  {
+   "q": "Consumer Protection Act and the medical profession.",
+   "m": "Short note",
+   "h": "Doctor as service provider, complaint, compensation"
+  }
+ ]
+}
