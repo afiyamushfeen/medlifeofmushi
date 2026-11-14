@@ -182,80 +182,43 @@ function ins(P,u){P.innerHTML=`<div class="ins">${INS.map(i=>`<div><svg viewBox=
 function dx(P,k){const h=DX.split("@").map(x=>{const[a,...r]=x.split("#");return[a,r.map(y=>y.split("|")).filter(y=>y[0]==k)]}).filter(x=>x[1].length);P.innerHTML='<p class="mut">Tap a subject to open its investigations.</p>'+h.map(x=>`<details><summary><b>${x[0]}</b> · ${x[1].length}</summary>`+tb(["Investigation","What it shows"],x[1].map(y=>[`<b>${y[1]}</b>`,y[2]]))+`</details>`).join("")+`<p class="mut">Educational summary only. Interpretation depends on the clinical picture.</p>`}
 function ccInit(r){const m=r.match(/^cc-([a-z]+)-(.+)$/),P=$("#ccp");if(!m||!P)return;const f=CCR[m[1]+"-"+m[2]];if(f){f(P);jumpBar(P)}else P.innerHTML=`<p><span class="tag">Coming soon</span></p><p class="mut">Something worth waiting for is being built here. Check back soon, or use Contribute on the About page to help shape it.</p>`}
 
-/* ===== CALENDAR =====
-   Delete your old calendar / Opportunity Edit blocks and paste this ONE block
-   inside <script>. Visitors can only view. You add webinars, events, contests
-   and skill workshops in events.json (see the notes). */
-
-const CATS=[["medday","Health awareness days","#2f7a6b"],["webinar","Webinars","#3d5a7a"],["event","Events","#702B36"],["contest","Contests","#c08a2b"],["workshop","Skill workshops","#737B68"]];
-const cn=k=>CATS.find(c=>c[0]==k)||CATS[2],ea=s=>esc(s).replace(/"/g,"&quot;");
+/* ===== STAGE 4: CALENDAR + OPPORTUNITY EDIT ===== */
+const CATS=[["class","Classes","#702B36"],["exam","Exams","#c08a2b"],["revision","Revision","#737B68"],["opportunity","Opportunities","#3d5a7a"],["personal","Personal","#a05a6a"],["planner","Planner tasks","#8a7b66"]];
+const cn=k=>CATS.find(c=>c[0]==k)||CATS[4],ea=s=>esc(s).replace(/"/g,"&quot;");
 const ymd=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"),pd=s=>{const[a,b,c]=s.split("-");return new Date(+a,b-1,+c)},add=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x};
-const lk=u=>/^https:\/\//.test(u||"")?`<a class="btn rip" href="${ea(u)}" target="_blank" rel="noopener">Details and registration</a>`:"";
-
-/* ---- YOUR EVENTS: loaded from events.json ---- */
-let OWN=[];
-fetch("events.json?v="+Date.now()).then(r=>r.ok?r.json():{events:[]}).then(j=>{OWN=(j.events||[]).filter(e=>e&&e.t&&e.d&&CATS.some(c=>c[0]==e.c&&c[0]!="medday")).map((e,i)=>({...e,id:"o"+i}));if(document.querySelector("#cal"))calInit();if(document.querySelector("#opp"))oppInit()}).catch(()=>{});
-
-/* ---- BUILT-IN HEALTH AWARENESS DAYS ---- */
-/* month|day (or n:weekday = nth weekday, -1 = last)|length in days|title|level (B basic, A advanced) */
-const MDS="1|-1:0|1|World Leprosy Day|A;2|4|1|World Cancer Day|B;2|2:1|1|International Epilepsy Day|A;3|3|1|World Hearing Day|A;3|2:4|1|World Kidney Day|A;3|16|1|National Vaccination Day (India)|B;3|21|1|World Down Syndrome Day|A;3|24|1|World TB Day|B;4|2|1|World Autism Awareness Day|A;4|7|1|World Health Day|B;4|10|1|World Homoeopathy Day|B;4|11|1|World Parkinson’s Day|A;4|11|1|National Safe Motherhood Day (India)|B;4|17|1|World Haemophilia Day|A;4|24|7|World Immunization Week|B;4|25|1|World Malaria Day|B;5|5|1|World Hand Hygiene Day|B;5|1:2|1|World Asthma Day|A;5|8|1|World Thalassaemia Day|A;5|12|1|International Nurses Day|B;5|17|1|World Hypertension Day|A;5|31|1|World No Tobacco Day|B;6|14|1|World Blood Donor Day|B;6|19|1|World Sickle Cell Day|A;7|1|1|National Doctors’ Day (India)|B;7|6|1|World Zoonoses Day|A;7|28|1|World Hepatitis Day|B;8|1|7|World Breastfeeding Week|B;9|8|1|World Physiotherapy Day|A;9|13|1|World Sepsis Day|A;9|17|1|World Patient Safety Day|B;9|21|1|World Alzheimer’s Day|A;9|25|1|World Pharmacists Day|A;9|28|1|World Rabies Day|A;9|29|1|World Heart Day|B;10|10|1|World Mental Health Day|B;10|2:4|1|World Sight Day|A;10|13|1|World Thrombosis Day|A;10|16|1|World Anaesthesia Day|A;10|16|1|World Spine Day|A;10|18|1|World Menopause Day|A;10|20|1|World Osteoporosis Day|A;10|24|1|World Polio Day|A;10|29|1|World Stroke Day|A;11|8|1|International Day of Radiology|A;11|12|1|World Pneumonia Day|A;11|14|1|World Diabetes Day|B;11|17|1|World Prematurity Day|A;11|18|7|World Antimicrobial Resistance Awareness Week|A;11|3:3|1|World COPD Day|A;12|1|1|World AIDS Day|B";
-function mdays(y){const o=[];MDS.split(";").forEach((r,i)=>{const[m0,dd,len,t,lv]=r.split("|"),m=+m0;let day;if(dd.includes(":")){const[n,w]=dd.split(":").map(Number);if(n>0){const f=new Date(y,m-1,1);day=1+((w-f.getDay()+7)%7)+(n-1)*7}else{const l=new Date(y,m,0);day=l.getDate()-((l.getDay()-w+7)%7)}}else day=+dd;for(let k=0;k<+len;k++)o.push({id:`md${y}-${i}-${k}`,t,d:ymd(new Date(y,m-1,day+k)),tm:"",c:"medday",lv,n:(lv=="B"?"Basic: a public-health or foundation awareness day.":"Advanced: a clinical or specialty awareness day.")+(+len>1?` Observed over ${len} days.`:"")})});return o}
-const MC={},mdc=y=>MC[y]||(MC[y]=mdays(y));
-
-/* ---- ALL EVENTS = health awareness days + your events ---- */
-let cv={v:"month",d:new Date(),md:"all"};
-const evAll=m=>{const y=cv.d.getFullYear();let md=m=="off"?[]:[...mdc(y-1),...mdc(y),...mdc(y+1)];if(m=="A"||m=="B")md=md.filter(e=>e.lv==m);return[...OWN,...md]};
-const evOn=k=>evAll(cv.md).filter(e=>e.d==k).sort((a,b)=>(a.tm||"").localeCompare(b.tm||""));
+/* events = your own events + dated Study Planner tasks (read-only) */
+const evAll=()=>[...g("ev",[]),...g("plan",[]).map((t,i)=>t.d?{id:"p"+i,t:t.t+(t.x?" (done)":""),d:t.d,tm:"",c:"planner",ro:1}:0).filter(Boolean)];
+const evOn=k=>evAll().filter(e=>e.d==k).sort((a,b)=>(a.tm||"").localeCompare(b.tm||""));
 const chip=e=>`<button class="ev" data-e="${e.id}" style="background:${cn(e.c)[2]}">${e.tm?e.tm+" ":""}${esc(e.t)}</button>`;
 const row=(e,t)=>`<div class="note"><span class="tag" style="background:${cn(e.c)[2]};color:#fff;border-color:${cn(e.c)[2]}">${cn(e.c)[1]}</span> ${e.tm||""} ${esc(e.t)}${e.d!=t?` <span class="mut">${e.d}</span>`:""}</div>`;
 function toast(m){let t=$("#toast");if(!t){t=document.createElement("div");t.id="toast";t.className="toast";t.setAttribute("role","status");document.body.append(t)}t.innerHTML=`${esc(m)} <button class="chip" aria-label="Dismiss">OK</button>`;t.firstElementChild&&t.querySelector("button").addEventListener("click",()=>t.remove())}
-function chk(){} /* reminders removed: visitors no longer add events */
-
-function todayPanel(){const t=ymd(new Date()),all=evAll("all"),td=all.filter(e=>e.d==t),up=all.filter(e=>e.d>t&&e.d<=ymd(add(new Date(),7))).sort((a,b)=>a.d.localeCompare(b.d)).slice(0,5);return`<h2 style="margin-top:40px">Today</h2><div class="page"><p class="mut">${new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"})}</p>${td.length?td.map(e=>row(e,t)).join(""):'<p class="mut">Nothing scheduled today.</p>'}<h3>Coming up</h3>${up.length?up.map(e=>row(e,t)).join(""):'<p class="mut">Nothing in the next 7 days.</p>'}<a class="btn rip" href="#calendar">Open calendar</a></div>`}
-
-/* ---- CALENDAR PAGE (view only) ---- */
-function calPage(){return`<h1 style="margin-top:30px">Calendar</h1><p class="mut" style="max-width:64ch">Health awareness days, plus webinars, events, contests and skill workshops added by the site owner. Dates of awareness days follow the usual annual calendar: confirm on the official site.</p><div id="cal"></div>`}
-function calInit(){
- const P=$("#cal");if(!P)return;
- const d=()=>{
-  const D=cv.d,t=ymd(new Date()),V=cv.v,wk=add(D,-((D.getDay()+6)%7));
-  let body="",title=V=="month"?D.toLocaleDateString(undefined,{month:"long",year:"numeric"}):V=="week"?"Week of "+wk.toLocaleDateString(undefined,{day:"numeric",month:"short"}):D.toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"});
-  if(V=="month"){
-   const f=new Date(D.getFullYear(),D.getMonth(),1),s=add(f,-((f.getDay()+6)%7));
-   body=`<div style="overflow-x:auto"><div class="cal">${["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(x=>`<b class="mut" style="text-align:center">${x}</b>`).join("")}${[...Array(42)].map((_,i)=>{const x=add(s,i),k=ymd(x),e=evOn(k);return`<div class="cd ${k==t?"today":""} ${x.getMonth()!=D.getMonth()?"o":""}"><button class="dnum" data-day="${k}" aria-label="Open ${k}">${x.getDate()}</button>${e.slice(0,3).map(chip).join("")}${e.length>3?`<span class="mut">+${e.length-3} more</span>`:""}</div>`}).join("")}</div></div>`
-  }else if(V=="week"){
-   body=`<div style="overflow-x:auto"><div class="cal">${[...Array(7)].map((_,i)=>{const x=add(wk,i),k=ymd(x);return`<div class="cd ${k==t?"today":""}" style="min-height:220px"><button class="dnum" data-day="${k}">${x.toLocaleDateString(undefined,{weekday:"short",day:"numeric"})}</button>${evOn(k).map(chip).join("")||'<span class="mut">Free</span>'}</div>`}).join("")}</div></div>`
-  }else{
-   const e=evOn(ymd(D));
-   body=e.length?e.map(x=>`<div class="note">${chip(x)}${x.m?` <span class="tag">${esc(x.m)}</span>`:""}${x.n?`<p class="mut">${esc(x.n)}</p>`:""}${lk(x.l)}</div>`).join(""):'<p class="mut">Nothing on this day.</p>'
-  }
-  P.innerHTML=`<div class="chips"><button class="btn g rip" id="c1" aria-label="Previous">‹</button><button class="btn g rip" id="c2">Today</button><button class="btn g rip" id="c3" aria-label="Next">›</button><b style="font-size:1.2rem;align-self:center">${title}</b>${["month","week","day"].map(v=>`<button class="chip ${v==V?"on":""}" data-v="${v}">${v[0].toUpperCase()+v.slice(1)}</button>`).join("")}</div><div class="chips"><b class="mut" style="align-self:center">Awareness days</b>${[["all","All"],["B","Basic"],["A","Advanced"],["off","Hide"]].map(x=>`<button class="chip ${cv.md==x[0]?"on":""}" data-m="${x[0]}">${x[1]}</button>`).join("")}</div><div class="chips">${CATS.map(c=>`<span class="tag" style="background:${c[2]};color:#fff;border-color:${c[2]}">${c[1]}</span>`).join("")}</div>${body}`;
-  const st=n=>{cv.d=V=="month"?new Date(D.getFullYear(),D.getMonth()+n,1):add(D,n*(V=="week"?7:1));d()};
-  $("#c1").onclick=()=>st(-1);$("#c3").onclick=()=>st(1);$("#c2").onclick=()=>{cv.d=new Date();d()};
-  on(P,"[data-v]",b=>{cv.v=b.dataset.v;d()});
-  on(P,"[data-m]",b=>{cv.md=b.dataset.m;d()});
-  on(P,"[data-day]",b=>{cv.d=pd(b.dataset.day);cv.v="day";d()});
-  on(P,".ev",b=>{const x=evAll(cv.md).find(z=>z.id==b.dataset.e);if(x){cv.d=pd(x.d);cv.v="day";d()}});
- };
- d()
-}
-
-/* ---- OPPORTUNITIES NOTICEBOARD (view only, upcoming items from events.json) ---- */
-const OT=[["webinar","Webinars"],["event","Events"],["workshop","Skill Workshops"],["contest","Contests"]];
-const OTX={webinar:"Online or in-person talks and sessions.",event:"Conferences, meets and student programmes.",workshop:"Hands-on sessions to build clinical and study skills.",contest:"Quizzes, poster rounds and competitions."};
-function oppPage(){return`<h1 style="margin-top:30px">Opportunity Edit</h1><p class="mut">Upcoming webinars, events, skill workshops and contests, added by the site owner. Always confirm details on the organiser’s official page before registering.</p><div id="opp"></div>`}
+function chk(){const n=new Date(),fr=g("fr",[]);let ch=0;g("ev",[]).forEach(e=>{if(!e.tm||e.r===""||e.r==null)return;const t=pd(e.d),h=e.tm.split(":");t.setHours(+h[0],+h[1]-(+e.r),0,0);const k=e.id+"@"+e.d;if(n>=t&&n-t<36e5&&!fr.includes(k)){fr.push(k);ch=1;toast("Reminder: "+e.t+" at "+e.tm)}});if(ch)p("fr",fr)}
+function todayPanel(){const t=ymd(new Date()),all=evAll(),td=all.filter(e=>e.d==t),up=all.filter(e=>e.d>t&&e.d<=ymd(add(new Date(),7))).sort((a,b)=>a.d.localeCompare(b.d)).slice(0,5);return`<h2 style="margin-top:40px">Today</h2><div class="page"><p class="mut">${new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"})}</p>${td.length?td.map(e=>row(e,t)).join(""):'<p class="mut">Nothing scheduled today.</p>'}<h3>Coming up</h3>${up.length?up.map(e=>row(e,t)).join(""):'<p class="mut">Nothing in the next 7 days. Add an event in the Calendar or an opportunity.</p>'}<a class="btn rip" href="#calendar">Open calendar</a></div>`}
+let cv={v:"month",d:new Date(),e:null};
+function calPage(){return`<h1 style="margin-top:30px">Calendar</h1><p class="mut">Classes, exams, revision, opportunities and personal plans. Dated Study Planner tasks and opportunities you add appear here automatically. Reminders show while this page is open.</p><div id="cal"></div>`}
+function calInit(){const P=$("#cal");const d=()=>{const D=cv.d,t=ymd(new Date()),V=cv.v,wk=add(D,-((D.getDay()+6)%7));let body="",title=V=="month"?D.toLocaleDateString(undefined,{month:"long",year:"numeric"}):V=="week"?"Week of "+wk.toLocaleDateString(undefined,{day:"numeric",month:"short"}):D.toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"});
+ if(V=="month"){const f=new Date(D.getFullYear(),D.getMonth(),1),s=add(f,-((f.getDay()+6)%7));body=`<div style="overflow-x:auto"><div class="cal">${["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(x=>`<b class="mut" style="text-align:center">${x}</b>`).join("")}${[...Array(42)].map((_,i)=>{const x=add(s,i),k=ymd(x),e=evOn(k);return`<div class="cd ${k==t?"today":""} ${x.getMonth()!=D.getMonth()?"o":""}"><button class="dnum" data-day="${k}" aria-label="Open ${k}">${x.getDate()}</button>${e.slice(0,3).map(chip).join("")}${e.length>3?`<span class="mut">+${e.length-3} more</span>`:""}</div>`}).join("")}</div></div>`}
+ else if(V=="week")body=`<div style="overflow-x:auto"><div class="cal">${[...Array(7)].map((_,i)=>{const x=add(wk,i),k=ymd(x);return`<div class="cd ${k==t?"today":""}" style="min-height:220px"><button class="dnum" data-day="${k}">${x.toLocaleDateString(undefined,{weekday:"short",day:"numeric"})}</button>${evOn(k).map(chip).join("")||'<span class="mut">Free</span>'}</div>`}).join("")}</div></div>`;
+ else{const e=evOn(ymd(D));body=e.length?e.map(x=>`<div class="note">${chip(x)}${x.n?`<p class="mut">${esc(x.n)}</p>`:""}${x.r!==""&&x.r!=null&&x.tm?`<span class="mut">Reminder set</span>`:""}</div>`).join(""):'<p class="mut">No events this day. Use Add event to create one.</p>'}
+ const e=cv.e,fm=e?`<div class="page" style="margin:12px 0"><h3>${e.id?"Edit":"Add"} event</h3><div class="chips"><input class="fm" id="f1" placeholder="Title" value="${ea(e.t||"")}" aria-label="Title" style="flex:2;min-width:180px"><input class="fm" id="f2" type="date" value="${e.d||ymd(D)}" aria-label="Date"><input class="fm" id="f3" type="time" value="${e.tm||""}" aria-label="Time"><select class="fm" id="f4" aria-label="Category">${CATS.filter(c=>c[0]!="planner").map(c=>`<option value="${c[0]}" ${c[0]==(e.c||"class")?"selected":""}>${c[1]}</option>`).join("")}</select><select class="fm" id="f5" aria-label="Reminder"><option value="">No reminder</option>${[0,10,30,60].map(m=>`<option value="${m}" ${e.r!==""&&e.r!=null&&+e.r==m?"selected":""}>${m?m+" min before":"At start time"}</option>`).join("")}</select></div><textarea id="f6" rows="2" placeholder="Notes" aria-label="Notes">${esc(e.n||"")}</textarea><div class="chips"><button class="btn rip" id="fs">Save</button><button class="btn g rip" id="fx">Cancel</button>${e.id?'<button class="btn g rip" id="fd">Delete</button>':""}</div><p class="mut">A reminder needs a time.</p></div>`:"";
+ P.innerHTML=`<div class="chips"><button class="btn g rip" id="c1" aria-label="Previous">‹</button><button class="btn g rip" id="c2">Today</button><button class="btn g rip" id="c3" aria-label="Next">›</button><b style="font-size:1.2rem;align-self:center">${title}</b>${["month","week","day"].map(v=>`<button class="chip ${v==V?"on":""}" data-v="${v}">${v[0].toUpperCase()+v.slice(1)}</button>`).join("")}<button class="btn rip" id="c4">Add event</button></div><div class="chips">${CATS.map(c=>`<span class="tag" style="background:${c[2]};color:#fff;border-color:${c[2]}">${c[1]}</span>`).join("")}</div>${fm}${body}`;
+ const st=n=>{cv.d=V=="month"?new Date(D.getFullYear(),D.getMonth()+n,1):add(D,n*(V=="week"?7:1));d()};$("#c1").onclick=()=>st(-1);$("#c3").onclick=()=>st(1);$("#c2").onclick=()=>{cv.d=new Date();d()};$("#c4").onclick=()=>{cv.e={};d()};
+ on(P,"[data-v]",b=>{cv.v=b.dataset.v;d()});on(P,"[data-day]",b=>{cv.d=pd(b.dataset.day);cv.v="day";d()});
+ on(P,".ev",b=>{const x=evAll().find(z=>z.id==b.dataset.e);if(x.ro)toast("Edit planner tasks in Student Toolkit → Study Planner");else{cv.e={...x};d()}});
+ if(e){$("#fx").onclick=()=>{cv.e=null;d()};$("#fs").onclick=()=>{const t=$("#f1").value.trim(),dt=$("#f2").value,tm=$("#f3").value,r=$("#f5").value;if(!t||!dt)return toast("Add a title and a date");if(r!==""&&!tm)return toast("A reminder needs a time");const a=g("ev",[]),o={...e,t,d:dt,tm,c:$("#f4").value,r,n:$("#f6").value};if(e.id){a[a.findIndex(z=>z.id==e.id)]=o}else{o.id="e"+Date.now();a.push(o)}p("ev",a);cv.e=null;cv.d=pd(dt);d()};if(e.id)$("#fd").onclick=()=>{p("ev",g("ev",[]).filter(z=>z.id!=e.id));cv.e=null;d()}}};d()}
+const OT=["Webinars","Events","Skill Workshops","Contests","Volunteering"];
+/* Sample listings only: placeholders, not real events */
+const OPS=[["s1","Webinars","Sample: online revision session on acid–base balance",4,"Online"],["s2","Webinars","Sample: expert talk on antimicrobial resistance",8,"Offline"],["s3","Skill Workshops","Sample: clinical skills workshop",12,"Offline"],["s4","Events","Sample: student medical conference",20,"Offline"],["s5","Contests","Sample: poster presentation round",15,"Offline"],["s6","Contests","Sample: inter-college medical quiz",10,"Online"],["s7","Volunteering","Sample: community health camp volunteers",6,"Offline"]];
+function oppPage(){return`<h1 style="margin-top:30px">Opportunity Edit</h1><p class="mut">A noticeboard for webinars, events, skill workshops, contests and volunteering. Listings marked Sample are placeholders, not real events. Add your own as you find them.</p><div id="opp"></div>`}
 let fl="";
-function oppInit(){
- const P=$("#opp");if(!P)return;
- fl=(OT.find(x=>"opportunity-"+slug(x[1])==location.hash.slice(1))||[""])[0];
- const d=()=>{
-  const t=ymd(new Date()),all=OWN.filter(o=>OT.some(x=>x[0]==o.c)&&(!fl||o.c==fl)&&o.d>=t).sort((a,b)=>a.d.localeCompare(b.d));
-  P.innerHTML=`<div class="chips"><button class="chip ${fl?"":"on"}" data-f="">All</button>${OT.map(x=>`<button class="chip ${fl==x[0]?"on":""}" data-f="${x[0]}">${x[1]}</button>`).join("")}</div><p class="mut">${fl?OTX[fl]:"Choose a type to see what it covers."}</p><div class="ins">${all.length?all.map(o=>`<div><span class="tag">${cn(o.c)[1]}</span>${o.m?`<span class="tag">${esc(o.m)}</span>`:""}<h3>${esc(o.t)}</h3><p class="mut">${o.d}${o.tm?" · "+o.tm:""}</p><p>${esc(o.n||"")}</p>${lk(o.l)}</div>`).join(""):'<p class="mut">Nothing upcoming here yet. Check back soon.</p>'}</div>`;
-  on(P,"[data-f]",b=>{fl=b.dataset.f;d()});
- };
- d()
-}
-  
+function oppInit(){const P=$("#opp");fl=OT.find(x=>"opportunity-"+slug(x)==location.hash.slice(1))||"";const d=()=>{const ev=g("ev",[]),all=[...OPS.map(o=>({id:o[0],ty:o[1],t:o[2],d:ymd(add(new Date(),o[3])),m:o[4],x:"Placeholder listing showing how a notice looks. Replace it with a real one.",s:1})),...g("ops",[]).map(o=>({...o,ty:OTM[o.ty]||o.ty}))].filter(o=>!fl||o.ty==fl).sort((a,b)=>a.d.localeCompare(b.d));
+ P.innerHTML=`<div class="chips"><button class="chip ${fl?"":"on"}" data-f="">All</button>${OT.map(x=>`<button class="chip ${fl==x?"on":""}" data-f="${x}">${x}</button>`).join("")}</div><p class="mut">${fl?OTD[fl]:"Choose a type to see what it covers."}</p><div class="ins">${all.length?all.map(o=>`<div><span class="tag">${o.ty}</span><span class="tag">${o.m}</span>${o.s?'<span class="tag" style="border-style:dashed">Sample</span>':""}<h3>${esc(o.t)}</h3><p class="mut">${o.d}</p><p>${esc(o.x||"")}</p>${ev.some(e=>e.src==o.id)?'<span class="mut">✓ In your calendar</span>':`<button class="btn rip" data-a="${o.id}">Add to Calendar</button>`}${o.s?"":` <button class="btn g rip" data-x="${o.id}">Delete</button>`}</div>`).join(""):'<p class="mut">Nothing under this filter yet. Add one below.</p>'}</div>
+<h3 style="margin-top:30px">Add my own opportunity</h3><div class="chips"><input class="fm" id="o1" placeholder="Title" aria-label="Title" style="flex:2;min-width:180px"><select class="fm" id="o2" aria-label="Type">${OT.map(x=>`<option>${x}</option>`).join("")}</select><input class="fm" id="o3" type="date" aria-label="Date"><select class="fm" id="o4" aria-label="Mode"><option>Online</option><option>Offline</option></select></div><textarea id="o5" rows="2" placeholder="Short description, organiser and registration details" aria-label="Description"></textarea><p><button class="btn rip" id="o6">Add to noticeboard</button></p>
+<details><summary>How to make a good poster presentation</summary><ul><li>Lead with a clear title and one-line takeaway.</li><li>Use the sections Background, Aim, Methods, Results, Conclusion, in that order.</li><li>Prefer figures and tables to paragraphs; keep text large enough to read from about 1.5 m.</li><li>State the numbers that matter and the limitations honestly.</li><li>Prepare a 2-minute spoken summary and answers to likely questions.</li><li>Follow the organiser’s size and format rules exactly.</li></ul></details>
+<details><summary>How to find real opportunities</summary><ul><li>Check your college notice boards, student council and department mailing lists.</li><li>Follow medical societies, journals and conference organisers on their official sites and channels.</li><li>Look at student-led groups and hospital or NGO volunteer pages.</li><li>Before sharing or registering, confirm the organiser, dates, fees and eligibility on the official page.</li></ul></details>`;
+ on(P,"[data-f]",b=>{fl=b.dataset.f;d()});on(P,"[data-a]",b=>{const o=all.find(z=>z.id==b.dataset.a),a=g("ev",[]);a.push({id:"e"+Date.now(),t:o.t,d:o.d,tm:"",c:"opportunity",n:o.x,r:"",src:o.id});p("ev",a);toast("Added to your Calendar");d()});on(P,"[data-x]",b=>{p("ops",g("ops",[]).filter(z=>z.id!=b.dataset.x));d()});
+ $("#o6").onclick=()=>{const t=$("#o1").value.trim(),dt=$("#o3").value;if(!t||!dt)return toast("Add a title and a date");const a=g("ops",[]);a.push({id:"o"+Date.now(),ty:$("#o2").value,t,d:dt,m:$("#o4").value,x:$("#o5").value});p("ops",a);d()}};d()}
+
 /* ===== STAGE 5: CASE-BASED LEARNING + SIMULATIONS ===== */
 CAT.cases=["Case-Based Learning",["Written Cases","Virtual Microscope","Neurological Exam Simulator","CPR Trainer","Medical Emergencies"],"📋"];
 const SIMN="<p class='mut'>Educational simulation, not clinical advice. Follow current local guidelines.</p>";
