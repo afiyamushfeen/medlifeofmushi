@@ -12,5 +12,16 @@ content:
           - { name: t, label: Title, type: string }
           - { name: d, label: "Date (YYYY-MM-DD)", type: string }
           - { name: tm, label: "Time (HH:MM, optional)", type: string }
-          - { name: c, label: Category, type: select, options: { values: [class, exam, revision, opportunity, personal] } }
+          - { name: c, label: Category, type: select, options: { values: [webinar, event, contest, workshop] } }
+          - { name: m, label: Mode, type: select, options: { values: [Online, Offline] } }
           - { name: n, label: Notes, type: text }
+          - { name: l, label: "Registration link (must start with https://)", type: string }
+  - name: site
+    label: Homepage text
+    type: file
+    path: site.json
+    fields:
+      - { name: eyebrow, label: Small top line, type: string }
+      - { name: headline, label: Headline, type: string }
+      - { name: intro, label: Intro paragraph, type: text }
+      - { name: tagline, label: Second line, type: text }
