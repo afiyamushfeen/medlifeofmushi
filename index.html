@@ -102,9 +102,6 @@ footer{text-align:center;color:var(--mut);font-size:.82rem;padding:20px}.btn {
 <aside id="dr" aria-label="Site menu"><div class="dh"><input id="q" type="search" placeholder="Search subjects and topics…" aria-label="Search"><button class="ib" id="dx" aria-label="Close menu" style="color:var(--ink);border-color:var(--line)">✕</button></div><div id="sr" role="listbox"></div><div id="dn"></div><div style="display:grid;gap:8px;margin-top:16px"><a class="btn rip" href="https://chat.whatsapp.com/LOb6yyxetet1GT9tjUsb8N" target="_blank" rel="noopener">Join the WhatsApp community</a><a class="btn g rip" href="https://www.instagram.com/medlifeofmushi/" target="_blank" rel="noopener">Instagram</a></div></aside>
 <main id="app" class="wrap"></main>
 <footer>Educational use only. Verify against standard textbooks and your faculty’s guidance. Not for clinical decision-making.</footer>
-function calPage(){return`<h1 style="margin-top:30px">Calendar</h1><iframe id="calf" src="calendar.html?embed=1" title="Calendar" style="width:100%;height:900px;border:0;display:block"></iframe>`}
-function calInit(){}
-addEventListener("message",e=>{if(e.origin===location.origin&&e.data&&e.data.calH){const f=document.getElementById("calf");if(f)f.style.height=(e.data.calH+8)+"px"}});
 <script>
 /* ===== 1. DATA — add subjects/topics here ===== */
 const TOPICS={anatomy:[
@@ -554,4 +551,7 @@ $("#sr").onclick=e=>{const a=e.target.closest("a");if(a){st={topic:+a.dataset.t,
 $("#th").onclick=()=>{const r=document.documentElement,d=r.dataset.theme?r.dataset.theme=="dark":matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=d?"light":"dark"};
 document.addEventListener("pointerdown",e=>{const b=e.target.closest(".rip");if(!b)return;const r=b.getBoundingClientRect(),z=Math.max(r.width,r.height),s=document.createElement("span");s.className="rp";s.style.cssText=`width:${z}px;height:${z}px;left:${e.clientX-r.left-z/2}px;top:${e.clientY-r.top-z/2}px`;b.append(s);setTimeout(()=>s.remove(),650)});
 addEventListener("hashchange",route);route();setInterval(chk,3e4);chk();
+function calPage(){return`<h1 style="margin-top:30px">Calendar</h1><iframe id="calf" src="calendar.html?embed=1" title="Calendar" style="width:100%;height:900px;border:0;display:block"></iframe>`}
+function calInit(){}
+addEventListener("message",e=>{if(e.origin===location.origin&&e.data&&e.data.calH){const f=document.getElementById("calf");if(f)f.style.height=(e.data.calH+8)+"px"}});
 </script></body></html>
